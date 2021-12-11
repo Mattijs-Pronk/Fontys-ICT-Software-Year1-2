@@ -23,6 +23,7 @@ namespace Challange_BattleSim
 
         private void btAttackKnight_Click(object sender, EventArgs e)
         {
+            //hieronder worden de 2 aangemaakte methodes aangeroepen.
             Ranger.GiveDamage();
             Ranger.TakeDamage();
 
@@ -31,13 +32,16 @@ namespace Challange_BattleSim
 
             //hieronder worden de buttons gecheckt en in/uitgeschakeld.
             btAttackKnight.Enabled = false;
+            btHealKnight.Enabled = false;
 
             if (btAttackRanger.Enabled == false)
             {
                 btAttackRanger.Enabled = true;
+                btHealRanger.Enabled = true;
             }
 
-            if(Ranger.hitpoints < 1)
+            //als de ranger geen hitpoints meer heeft word de game herstart (ranger en knight weer 100 hitpoints).
+            if (Ranger.hitpoints < 1)
             {
                 Knight.hitpoints = 100;
                 pbKnight.Value = Knight.hitpoints;
@@ -49,6 +53,7 @@ namespace Challange_BattleSim
 
         private void btAttackRanger_Click(object sender, EventArgs e)
         {
+            //hieronder worden de 2 aangemaakte methodes aangeroepen.
             Knight.GiveDamage();
             Knight.TakeDamage();
 
@@ -57,13 +62,16 @@ namespace Challange_BattleSim
 
             //hieronder worden de buttons gecheckt en in/uitgeschakeld.
             btAttackRanger.Enabled = false;
+            btHealRanger.Enabled = false;
 
             if (btAttackKnight.Enabled == false)
             {
                 btAttackKnight.Enabled = true;
+                btHealKnight.Enabled = true;
             }
 
-            if(Knight.hitpoints < 1)
+            //als de knight geen hitpoints meer heeft word de game herstart (ranger en knight weer 100 hitpoints).
+            if (Knight.hitpoints < 1)
             {
                 Knight.hitpoints = 100;
                 pbKnight.Value = Knight.hitpoints;
@@ -75,6 +83,7 @@ namespace Challange_BattleSim
 
         private void btReset_Click(object sender, EventArgs e)
         {
+            //als er op de reset knop word gedrukt word de game herstart (ranger en knight weer 100 hitpoints).
             Knight.hitpoints = 100;
             pbKnight.Value = Knight.hitpoints;
 
@@ -83,11 +92,48 @@ namespace Challange_BattleSim
 
             MessageBox.Show("Game restarted");
         }
+
+        private void btHealKnight_Click(object sender, EventArgs e)
+        {
+            //hieronder worden de 2 aangemaakte methodes aangeroepen.
+            Knight.Healing();
+            Knight.TakeDamage();
+            pbKnight.Value = Knight.hitpoints;
+
+            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
+            btHealKnight.Enabled = false;
+            btAttackKnight.Enabled = false;
+                
+            if(btHealKnight.Enabled == false)
+            {
+                btHealRanger.Enabled = true;
+                btAttackRanger.Enabled = true;
+            }
+        }
+
+        private void btHealRanger_Click(object sender, EventArgs e)
+        {
+            //hieronder worden de 2 aangemaakte methodes aangeroepen.
+            Ranger.Healing();
+            Ranger.TakeDamage();
+            pbRanger.Value = Ranger.hitpoints;
+
+            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
+            btHealRanger.Enabled = false;
+            btAttackRanger.Enabled = false;
+
+            if (btHealRanger.Enabled == false)
+            {
+                btHealKnight.Enabled = true;
+                btAttackKnight.Enabled = true;
+            }
+        }
     }
 
     //hieronder is een constructor te zien die voor de hitpoints zorgt.
     public class Speler
     {
+        //hieronder word een public variabele aangemaakt
         public int hitpoints;
 
         public Speler(int hitpoints)
@@ -97,6 +143,7 @@ namespace Challange_BattleSim
 
         //hieronder is encapsulation te zien door een variabele op private te zetten.
         private int damage;
+        private int heal;
 
         //hieronder is een property te zien die voor de random damage tussen 0 en 30 zorgt.
         public int Damage
@@ -106,15 +153,32 @@ namespace Challange_BattleSim
                 Random rnd = new Random();
                 return damage = rnd.Next(0, 31);
             }
+            set { }
         }
 
-        //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en gereset worden.
+        //hieronder is een property te zien die voor de random healing tussen 4 en 20 zorgt.
+        public int Heal
+        {
+            get
+            {
+                Random rnd = new Random();
+                return heal = rnd.Next(4, 21);
+            }
+            set { }
+        }
+
+        //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en niet boven de 100.
         public void TakeDamage()
         {
             if (hitpoints < 0)
             {
+                hitpoints = 0;
+                MessageBox.Show("You win congratualations");
+            }
+
+            else if(hitpoints > 100)
+            {
                 hitpoints = 100;
-                MessageBox.Show("You win congratualations(Loser's HP resetting)");
             }
         }
 
@@ -132,6 +196,12 @@ namespace Challange_BattleSim
             {
                 MessageBox.Show("Critical hit!");
             }
+        }
+
+        //hieronder is de method te zien die voor de healing output zorgt.
+        public void Healing()
+        {
+            hitpoints += Heal;
         }
     }
 }
