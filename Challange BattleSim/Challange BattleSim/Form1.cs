@@ -68,7 +68,7 @@ namespace Challange_BattleSim
 
             if(hitpoints < 1)
             {
-                MessageBox.Show("Bruh you lost (Loser's hp resetting)");
+                MessageBox.Show("Bruh you lost (Loser's hp resetting...)");
                 hitpoints = 100;
             }
         }
