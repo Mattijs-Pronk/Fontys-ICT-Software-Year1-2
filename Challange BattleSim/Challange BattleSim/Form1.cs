@@ -29,12 +29,21 @@ namespace Challange_BattleSim
             //hieronder worden de hitpoints weergegeven in een progressbar.
             pbRanger.Value = Ranger.hitpoints;
 
-            //hieronder worden de buttons gecheckt en uitgeschakeld.
+            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
             btAttackKnight.Enabled = false;
 
             if (btAttackRanger.Enabled == false)
             {
                 btAttackRanger.Enabled = true;
+            }
+
+            if(Ranger.hitpoints < 1)
+            {
+                Knight.hitpoints = 100;
+                pbKnight.Value = Knight.hitpoints;
+
+                Ranger.hitpoints = 100;
+                pbRanger.Value = Ranger.hitpoints;
             }
         }
 
@@ -46,13 +55,33 @@ namespace Challange_BattleSim
             //hieronder worden de hitpoints weergegeven in een progressbar.
             pbKnight.Value = Knight.hitpoints;
 
-            //hieronder worden de buttons gecheckt en uitgeschakeld.
+            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
             btAttackRanger.Enabled = false;
 
             if (btAttackKnight.Enabled == false)
             {
                 btAttackKnight.Enabled = true;
             }
+
+            if(Knight.hitpoints < 1)
+            {
+                Knight.hitpoints = 100;
+                pbKnight.Value = Knight.hitpoints;
+
+                Ranger.hitpoints = 100;
+                pbRanger.Value = Ranger.hitpoints;
+            }
+        }
+
+        private void btReset_Click(object sender, EventArgs e)
+        {
+            Knight.hitpoints = 100;
+            pbKnight.Value = Knight.hitpoints;
+
+            Ranger.hitpoints = 100;
+            pbRanger.Value = Ranger.hitpoints;
+
+            MessageBox.Show("Game restarted");
         }
     }
 
@@ -85,7 +114,7 @@ namespace Challange_BattleSim
             if (hitpoints < 0)
             {
                 hitpoints = 100;
-                MessageBox.Show("You win congratualations(Loser's HP resetting");
+                MessageBox.Show("You win congratualations(Loser's HP resetting)");
             }
         }
 
