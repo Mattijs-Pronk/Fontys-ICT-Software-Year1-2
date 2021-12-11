@@ -1,0 +1,14 @@
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.exe
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.deps.json
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.runtimeconfig.json
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.dll
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\bin\Debug\netcoreapp3.1\Trafficlight with enum.pdb
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.AssemblyInfo.cs
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.dll
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.pdb
+C:\Users\matti\source\repos\Trafficlight with enum\Trafficlight with enum\obj\Debug\netcoreapp3.1\Trafficlight with enum.genruntimeconfig.cache

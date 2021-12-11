@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\bin\Debug\Worpengenerator.exe.config
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\bin\Debug\Worpengenerator.exe
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\bin\Debug\Worpengenerator.pdb
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.Form1.resources
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.Properties.Resources.resources
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.exe
+C:\Users\matti\source\repos\Worpengenerator\Worpengenerator\obj\Debug\Worpengenerator.pdb

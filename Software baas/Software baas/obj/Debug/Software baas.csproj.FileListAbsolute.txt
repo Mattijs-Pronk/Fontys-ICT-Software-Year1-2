@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software baas.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software_baas.Form1.resources
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software_baas.Properties.Resources.resources
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software baas.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software baas.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Software baas\Software baas\bin\Debug\Software baas.exe.config
+C:\Users\matti\source\repos\Software baas\Software baas\bin\Debug\Software baas.exe
+C:\Users\matti\source\repos\Software baas\Software baas\bin\Debug\Software baas.pdb
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software baas.exe
+C:\Users\matti\source\repos\Software baas\Software baas\obj\Debug\Software baas.pdb

@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\bin\Debug\Checkbox Fitness diet.exe.config
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\bin\Debug\Checkbox Fitness diet.exe
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\bin\Debug\Checkbox Fitness diet.pdb
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox Fitness diet.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox_Fitness_diet.Form1.resources
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox_Fitness_diet.Properties.Resources.resources
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox Fitness diet.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox Fitness diet.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox Fitness diet.exe
+C:\Users\matti\source\repos\Checkbox Fitness diet\Checkbox Fitness diet\obj\Debug\Checkbox Fitness diet.pdb

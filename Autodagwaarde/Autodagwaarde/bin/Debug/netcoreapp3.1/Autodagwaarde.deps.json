@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Autodagwaarde/1.0.0": {
+        "runtime": {
+          "Autodagwaarde.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autodagwaarde/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

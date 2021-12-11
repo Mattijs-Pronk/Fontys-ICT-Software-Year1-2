@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\bin\Debug\Maaldrie.exe.config
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\bin\Debug\Maaldrie.exe
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\bin\Debug\Maaldrie.pdb
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.Form1.resources
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.Properties.Resources.resources
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.exe
+C:\Users\matti\source\repos\Maaldrie\Maaldrie\obj\Debug\Maaldrie.pdb

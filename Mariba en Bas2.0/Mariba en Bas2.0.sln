@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mariba en Bas2.0", "Mariba en Bas2.0\Mariba en Bas2.0.csproj", "{C229B1F4-6995-4601-AC55-7F42D403FA99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C229B1F4-6995-4601-AC55-7F42D403FA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C229B1F4-6995-4601-AC55-7F42D403FA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C229B1F4-6995-4601-AC55-7F42D403FA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C229B1F4-6995-4601-AC55-7F42D403FA99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B551EFDB-051C-45DD-AF8D-81FB12536FE7}
+	EndGlobalSection
+EndGlobal

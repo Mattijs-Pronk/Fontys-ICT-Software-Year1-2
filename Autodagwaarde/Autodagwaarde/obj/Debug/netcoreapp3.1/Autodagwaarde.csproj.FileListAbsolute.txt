@@ -1,0 +1,14 @@
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.exe
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.deps.json
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.runtimeconfig.json
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.dll
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\bin\Debug\netcoreapp3.1\Autodagwaarde.pdb
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.AssemblyInfo.cs
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.dll
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.pdb
+C:\Users\matti\source\repos\Autodagwaarde\Autodagwaarde\obj\Debug\netcoreapp3.1\Autodagwaarde.genruntimeconfig.cache

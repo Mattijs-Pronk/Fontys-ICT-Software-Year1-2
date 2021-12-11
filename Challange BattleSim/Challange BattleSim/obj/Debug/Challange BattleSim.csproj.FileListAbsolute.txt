@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\bin\Debug\Challange BattleSim.exe.config
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\bin\Debug\Challange BattleSim.exe
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\bin\Debug\Challange BattleSim.pdb
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange_BattleSim.Form1.resources
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange_BattleSim.Properties.Resources.resources
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.exe
+C:\Users\matti\source\repos\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.pdb

@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\bin\Debug\Own project (Mattijs Pronk).exe.config
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\bin\Debug\Own project (Mattijs Pronk).exe
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\bin\Debug\Own project (Mattijs Pronk).pdb
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own project (Mattijs Pronk).csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own_project__Mattijs_Pronk_.Form1.resources
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own_project__Mattijs_Pronk_.Properties.Resources.resources
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own project (Mattijs Pronk).csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own project (Mattijs Pronk).csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own project (Mattijs Pronk).exe
+C:\Users\matti\source\repos\Own project (Mattijs Pronk)\Own project (Mattijs Pronk)\obj\Debug\Own project (Mattijs Pronk).pdb

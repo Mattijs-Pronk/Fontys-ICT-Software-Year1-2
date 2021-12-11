@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe-calc.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe_calc.Form1.resources
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe_calc.Properties.Resources.resources
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe-calc.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe-calc.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\bin\Debug\goeroe-calc.exe.config
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\bin\Debug\goeroe-calc.exe
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\bin\Debug\goeroe-calc.pdb
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe-calc.exe
+C:\Users\matti\source\repos\goeroe-calc\goeroe-calc\obj\Debug\goeroe-calc.pdb

@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Televisie\Televisie\bin\Debug\Televisie.exe.config
+C:\Users\matti\source\repos\Televisie\Televisie\bin\Debug\Televisie.exe
+C:\Users\matti\source\repos\Televisie\Televisie\bin\Debug\Televisie.pdb
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.Form1.resources
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.Properties.Resources.resources
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.exe
+C:\Users\matti\source\repos\Televisie\Televisie\obj\Debug\Televisie.pdb

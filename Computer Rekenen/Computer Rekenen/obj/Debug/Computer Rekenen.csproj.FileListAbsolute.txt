@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\bin\Debug\Computer Rekenen.exe.config
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\bin\Debug\Computer Rekenen.exe
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\bin\Debug\Computer Rekenen.pdb
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer Rekenen.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer_Rekenen.Form1.resources
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer_Rekenen.Properties.Resources.resources
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer Rekenen.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer Rekenen.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer Rekenen.exe
+C:\Users\matti\source\repos\Computer Rekenen\Computer Rekenen\obj\Debug\Computer Rekenen.pdb
