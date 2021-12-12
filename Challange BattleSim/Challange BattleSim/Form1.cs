@@ -48,6 +48,8 @@ namespace Challange_BattleSim
 
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
+
+                MessageBox.Show("Knight has won, Congratulations");
             }
         }
 
@@ -78,6 +80,8 @@ namespace Challange_BattleSim
 
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
+
+                MessageBox.Show("Ranger has won, Congratulations");
             }
         }
 
@@ -156,27 +160,33 @@ namespace Challange_BattleSim
             set { }
         }
 
-        //hieronder is een property te zien die voor de random healing tussen 4 en 20 zorgt.
+        //hieronder is een property te zien die voor de random healing tussen 2 en 15 zorgt.
         public int Heal
         {
             get
             {
                 Random rnd = new Random();
-                return heal = rnd.Next(4, 21);
+                return heal = rnd.Next(2, 16);
             }
             set { }
+        }
+
+        //hieronder is een enum te zien.
+        public enum Hits
+        {
+            Critical,
+            miss
         }
 
         //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en niet boven de 100.
         public void TakeDamage()
         {
-            if (hitpoints < 0)
+            if (hitpoints < 1)
             {
                 hitpoints = 0;
-                MessageBox.Show("You win congratualations");
             }
 
-            else if(hitpoints > 100)
+            else if(hitpoints > 99)
             {
                 hitpoints = 100;
             }
@@ -185,16 +195,20 @@ namespace Challange_BattleSim
         //hieronder is de method te zien die voor de damage output zorgt.
         public void GiveDamage()
         {
+            //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
+            Hits raak = Hits.Critical;
+            Hits nietraak = Hits.miss;
+
             hitpoints -= Damage;
 
             if (Damage < 1)
             {
-                MessageBox.Show("Hit or miss, i guess you missed huh...");
+                MessageBox.Show("Hit or " + nietraak + ", i guess you missed huh...");
             }
 
             else if (Damage > 24)
             {
-                MessageBox.Show("Critical hit!");
+                MessageBox.Show(raak + " hit!");
             }
         }
 
