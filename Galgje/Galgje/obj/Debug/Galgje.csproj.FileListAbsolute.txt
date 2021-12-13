@@ -1,0 +1,10 @@
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\bin\Debug\Galgje.exe.config
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\bin\Debug\Galgje.exe
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\bin\Debug\Galgje.pdb
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.Properties.Resources.resources
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.csproj.GenerateResource.cache
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.exe
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.pdb
+C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Galgje\obj\Debug\Galgje.Form1.resources

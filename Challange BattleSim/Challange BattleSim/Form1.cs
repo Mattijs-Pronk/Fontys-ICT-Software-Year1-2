@@ -140,6 +140,10 @@ namespace Challange_BattleSim
         }
     }
 
+
+
+
+
     //hieronder is een constructor te zien die voor de hitpoints zorgt.
     public class Speler
     {
