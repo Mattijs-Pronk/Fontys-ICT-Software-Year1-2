@@ -49,7 +49,7 @@ namespace Challange_BattleSim
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
 
-                MessageBox.Show("Knight has won, Congratulations");
+                MessageBox.Show("Knight has won, Congratulations(Resetting)");
             }
         }
 
@@ -81,7 +81,7 @@ namespace Challange_BattleSim
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
 
-                MessageBox.Show("Ranger has won, Congratulations");
+                MessageBox.Show("Ranger has won, Congratulations(Resetting)");
             }
         }
 
@@ -93,6 +93,12 @@ namespace Challange_BattleSim
 
             Ranger.hitpoints = 100;
             pbRanger.Value = Ranger.hitpoints;
+
+            btAttackKnight.Enabled = true;
+            btHealKnight.Enabled = true;
+
+            btAttackRanger.Enabled = true;
+            btHealRanger.Enabled = true;
 
             MessageBox.Show("Game restarted");
         }
@@ -140,14 +146,14 @@ namespace Challange_BattleSim
         //hieronder word een public variabele aangemaakt
         public int hitpoints;
 
+        //hieronder is encapsulation te zien door een variabele op private te zetten.
+        private int damage;
+        private int heal;
+
         public Speler(int hitpoints)
         {
             this.hitpoints = hitpoints;
         }
-
-        //hieronder is encapsulation te zien door een variabele op private te zetten.
-        private int damage;
-        private int heal;
 
         //hieronder is een property te zien die voor de random damage tussen 0 en 30 zorgt.
         public int Damage
