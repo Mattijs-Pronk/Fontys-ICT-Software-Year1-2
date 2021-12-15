@@ -35,9 +35,10 @@ namespace Galgje
             // 
             // btCheck
             // 
-            this.btCheck.Location = new System.Drawing.Point(112, 177);
+            this.btCheck.Location = new System.Drawing.Point(13, 13);
+            this.btCheck.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btCheck.Name = "btCheck";
-            this.btCheck.Size = new System.Drawing.Size(75, 23);
+            this.btCheck.Size = new System.Drawing.Size(100, 28);
             this.btCheck.TabIndex = 0;
             this.btCheck.Text = "Check";
             this.btCheck.UseVisualStyleBackColor = true;
@@ -45,18 +46,20 @@ namespace Galgje
             // 
             // tbChecklines
             // 
-            this.tbChecklines.Location = new System.Drawing.Point(112, 231);
+            this.tbChecklines.Location = new System.Drawing.Point(13, 49);
+            this.tbChecklines.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbChecklines.Name = "tbChecklines";
-            this.tbChecklines.Size = new System.Drawing.Size(100, 20);
+            this.tbChecklines.Size = new System.Drawing.Size(831, 22);
             this.tbChecklines.TabIndex = 1;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.tbChecklines);
             this.Controls.Add(this.btCheck);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
