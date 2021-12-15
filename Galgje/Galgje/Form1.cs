@@ -13,31 +13,32 @@ namespace Galgje
 {
     public partial class Form1 : Form
     {
-        Woord galgje = new Woord(woord);
 
         public Form1()
         {
             InitializeComponent();
         }
 
+        public void btCheck_Click(object sender, EventArgs e)
+        {
 
+        }
 
 
         public class Woord
         {
-            public string woord = System.IO.File.ReadAllText(@"C:\Users\matti\source\repos\Galgje\Tekst to C#\Tekst.txt");
-            public string hetwoord;
+            private string woord;
 
-            public Woord(string woord)
+            public Woord(string w)
             {
-                this.woord = woord;
+                this.woord = w;
+                w = File.ReadAllText(@"C:\Users\matti\source\repos\Fontys-ICT-Software\Galgje\Tekst to C#\Tekst.txt");
             }
-            
-        }
 
-        private void btCheck_Click(object sender, EventArgs e)
-        {
-            tbChecklines.Text = Convert.ToString(galgje);
+            public void GetWord()
+            {
+
+            }
         }
     }
 }
