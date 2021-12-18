@@ -45,10 +45,17 @@ namespace Challange_BattleSim
         }
 
         //hieronder is een enum te zien.
-        public enum Hits
+        enum Hits
         {
             Critical,
             miss
+        }
+
+        enum weapons
+        {
+            Sword = 5,
+            Shield = 8,
+            Crossbow = 5,
         }
 
         //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en niet boven de 100.
@@ -65,14 +72,35 @@ namespace Challange_BattleSim
             }
         }
 
-        //hieronder is de method te zien die voor de damage output zorgt.
         public void GiveDamage()
         {
             //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
             Hits raak = Hits.Critical;
             Hits nietraak = Hits.miss;
 
-            hitpoints -= Damage;
+            if(Form1.weapondamageKnight == 1)
+            {
+                Damage += (int)weapons.Sword;
+                hitpoints -= Damage;
+            }
+
+            else if(Form1.weapondamageKnight == 2)
+            {
+                Damage -= (int)weapons.Shield;
+                hitpoints -= Damage;
+            }
+
+            else if(Form1.weapondamageRanger == 1)
+            {
+                Damage += (int)weapons.Crossbow;
+                hitpoints -= Damage;
+            }
+
+            else if (Form1.weapondamageRanger == 2)
+            {
+                Damage -= (int)weapons.Shield;
+                hitpoints -= Damage;
+            }
 
             if (Damage < 1)
             {

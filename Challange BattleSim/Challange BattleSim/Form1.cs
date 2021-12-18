@@ -12,19 +12,55 @@ namespace Challange_BattleSim
 {
     public partial class Form1 : Form
     {
-        //Hieronder worden 2 spelers aangemaakt met beide 100 hitpoints.
+        //Hieronder worden 2 spelers aangemaakt met beide 150 hitpoints.
         Speler Knight = new Speler(100);
         Speler Ranger = new Speler(100);
 
-        public Form1()
+        public int weaponselectKnight;
+        public int weaponselectRanger;
+
+        //static variabele om de gekozen vechtstijl door te geven aan de "GiveDamage" methode.
+        static public int weapondamageKnight;
+        static public int weapondamageRanger;
+
+        public Form1(int weaponKnight, int weaponRanger)
         {
+            //hieronder worden de picturboxes aangepast naar het gekozen wapen, en de static variabele krijgen een waarde.
             InitializeComponent();
+            weaponselectKnight = weaponKnight;
+            weaponselectRanger = weaponRanger;
+
+            if (weaponselectKnight == 1)
+            {
+                weapondamageKnight = 1;
+                pbWeaponKnight.Image = Properties.Resources.Sword;
+            }
+
+            else if (weaponselectKnight == 2)
+            {
+                weapondamageKnight = 2;
+                pbWeaponKnight.Image = Properties.Resources.Shield;
+            }
+
+            if (weaponselectRanger == 1)
+            {
+                weapondamageRanger = 1;
+                pbWeaponRanger.Image = Properties.Resources.Crossbow;
+            }
+
+            else if (weaponselectRanger == 2)
+            {
+                weapondamageRanger = 2; 
+                pbWeaponRanger.Image = Properties.Resources.Shield;
+            }
         }
 
         private void btAttackKnight_Click(object sender, EventArgs e)
         {
-            //hieronder worden de 2 aangemaakte methodes aangeroepen.
+            //hieronder worden de aangemaakte methodes aangeroepen.
+
             Ranger.GiveDamage();
+
             Ranger.TakeDamage();
 
             //hieronder worden de hitpoints weergegeven in een progressbar.
@@ -57,6 +93,7 @@ namespace Challange_BattleSim
         {
             //hieronder worden de 2 aangemaakte methodes aangeroepen.
             Knight.GiveDamage();
+
             Knight.TakeDamage();
 
             //hieronder worden de hitpoints weergegeven in een progressbar.
@@ -87,7 +124,7 @@ namespace Challange_BattleSim
 
         private void btReset_Click(object sender, EventArgs e)
         {
-            //als er op de reset knop word gedrukt word de game herstart (ranger en knight weer 100 hitpoints).
+            //als er op de reset knop word gedrukt word de game herstart (ranger en knight weer 150 hitpoints).
             Knight.hitpoints = 100;
             pbKnight.Value = Knight.hitpoints;
 

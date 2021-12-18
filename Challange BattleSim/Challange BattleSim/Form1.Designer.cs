@@ -41,8 +41,16 @@ namespace Challange_BattleSim
             this.btReset = new System.Windows.Forms.Button();
             this.btHealKnight = new System.Windows.Forms.Button();
             this.btHealRanger = new System.Windows.Forms.Button();
+            this.pbWeaponKnight = new System.Windows.Forms.PictureBox();
+            this.pbWeaponRanger = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeaponKnight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeaponRanger)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -161,12 +169,76 @@ namespace Challange_BattleSim
             this.btHealRanger.UseVisualStyleBackColor = true;
             this.btHealRanger.Click += new System.EventHandler(this.btHealRanger_Click);
             // 
+            // pbWeaponKnight
+            // 
+            this.pbWeaponKnight.Location = new System.Drawing.Point(216, 83);
+            this.pbWeaponKnight.Name = "pbWeaponKnight";
+            this.pbWeaponKnight.Size = new System.Drawing.Size(55, 50);
+            this.pbWeaponKnight.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWeaponKnight.TabIndex = 11;
+            this.pbWeaponKnight.TabStop = false;
+            // 
+            // pbWeaponRanger
+            // 
+            this.pbWeaponRanger.Location = new System.Drawing.Point(327, 83);
+            this.pbWeaponRanger.Name = "pbWeaponRanger";
+            this.pbWeaponRanger.Size = new System.Drawing.Size(55, 50);
+            this.pbWeaponRanger.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbWeaponRanger.TabIndex = 12;
+            this.pbWeaponRanger.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(457, 4);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 20);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Ranger";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(81, 4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(60, 20);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Knight";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(213, 136);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 16);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Weapon";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(324, 136);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 16);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Weapon";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.pbWeaponRanger);
+            this.Controls.Add(this.pbWeaponKnight);
             this.Controls.Add(this.btHealRanger);
             this.Controls.Add(this.btHealKnight);
             this.Controls.Add(this.btReset);
@@ -184,6 +256,8 @@ namespace Challange_BattleSim
             this.Text = "BattleSim";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeaponKnight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWeaponRanger)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,6 +276,12 @@ namespace Challange_BattleSim
         private System.Windows.Forms.Button btReset;
         private System.Windows.Forms.Button btHealKnight;
         private System.Windows.Forms.Button btHealRanger;
+        private System.Windows.Forms.PictureBox pbWeaponKnight;
+        private System.Windows.Forms.PictureBox pbWeaponRanger;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 

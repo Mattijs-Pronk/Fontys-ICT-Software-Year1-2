@@ -18,3 +18,4 @@ C:\Users\matti\source\repos\Fontys-ICT-Software\Challange BattleSim\Challange Ba
 C:\Users\matti\source\repos\Fontys-ICT-Software\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.csproj.CoreCompileInputs.cache
 C:\Users\matti\source\repos\Fontys-ICT-Software\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.exe
 C:\Users\matti\source\repos\Fontys-ICT-Software\Challange BattleSim\Challange BattleSim\obj\Debug\Challange BattleSim.pdb
+C:\Users\matti\source\repos\Fontys-ICT-Software\Challange BattleSim\Challange BattleSim\obj\Debug\Challange_BattleSim.Selectform.resources
