@@ -7,16 +7,31 @@ using System.Windows.Forms;
 
 namespace Challange_BattleSim
 {
-    //hieronder is een constructor te zien die voor de hitpoints zorgt.
     public class Speler
     {
-        //hieronder word een public variabele aangemaakt
+        //hieronder worden public variabele aangemaakt
         public int hitpoints;
+        public int currentDamage;
 
         //hieronder is encapsulation te zien door een variabele op private te zetten.
         private int damage;
         private int heal;
 
+        //hieronder zijn 2 enum's te zien.
+        enum Hits
+        {
+            Critical,
+            miss
+        }
+
+        enum weapons
+        {
+            Sword = 3,
+            Shield = 4,
+            Crossbow = 3,
+        }
+
+        //hieronder is een constructor te zien die voor de hitpoints zorgt.
         public Speler(int hitpoints)
         {
             this.hitpoints = hitpoints;
@@ -44,20 +59,6 @@ namespace Challange_BattleSim
             set { }
         }
 
-        //hieronder is een enum te zien.
-        enum Hits
-        {
-            Critical,
-            miss
-        }
-
-        enum weapons
-        {
-            Sword = 5,
-            Shield = 7,
-            Crossbow = 5,
-        }
-
         //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en niet boven de 100.
         public void TakeDamage()
         {
@@ -75,24 +76,21 @@ namespace Challange_BattleSim
         public void GiveDamageKnight()
         {
             //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
+            //ook word de andere enum gebruikt door de (int) waarde toe te passen als extra of juist minder damage.
             Hits raak = Hits.Critical;
             Hits nietraak = Hits.miss;
 
-            if(Form1.weapondamageKnight == 1)
+            if(Form1.weapondamageKnight == 1 || Form1.weapondamageRanger == 1)
+            {
+                currentDamage = Damage + (int)weapons.Sword;
+                hitpoints -= currentDamage;
+            }
+
+            else if (Form1.weapondamageKnight == 1 || Form1.weapondamageRanger == 2)
             {
                 Damage += (int)weapons.Sword;
-                hitpoints -= Damage;
-            }
-
-            else if (Form1.weapondamageRanger == 2)
-            {
-                Damage -= (int)weapons.Shield;
-                hitpoints -= Damage;
-            }
-
-            else
-            {
-                hitpoints -= Damage;
+                currentDamage = Damage - (int)weapons.Shield;
+                hitpoints -= currentDamage;
             }
 
             if (Damage < 1)
@@ -109,19 +107,21 @@ namespace Challange_BattleSim
         public void GiveDamageRanger()
         {
             //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
+            //ook word de andere enum gebruikt door de (int) waarde toe te passen als extra of juist minder damage.
             Hits raak = Hits.Critical;
             Hits nietraak = Hits.miss;
 
-            if (Form1.weapondamageRanger == 1)
+            if (Form1.weapondamageRanger == 1 || Form1.weapondamageKnight == 1)
             {
-                Damage += (int)weapons.Crossbow;
-                hitpoints -= Damage;
+                currentDamage = Damage + (int)weapons.Crossbow;
+                hitpoints -= currentDamage;
             }
 
-            else if (Form1.weapondamageKnight == 2)
+            else if (Form1.weapondamageKnight == 2 || Form1.weapondamageRanger == 1)
             {
-                Damage -= (int)weapons.Shield;
-                hitpoints -= Damage;
+                Damage += (int)weapons.Crossbow;
+                currentDamage = Damage - (int)weapons.Shield;
+                hitpoints -= currentDamage;
             }
 
             else

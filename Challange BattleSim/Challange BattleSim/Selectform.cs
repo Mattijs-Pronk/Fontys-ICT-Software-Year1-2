@@ -72,9 +72,9 @@ namespace Challange_BattleSim
 
         private void btStart_Click(object sender, EventArgs e)
         {
-            Form1 chosenweapons = new Form1(weaponselectKnight, weaponselectRanger);
+            Form1 form1 = new Form1(weaponselectKnight, weaponselectRanger);
             this.Hide();
-            chosenweapons.Show();
+            form1.Show();
         }
     }
 }
