@@ -54,7 +54,7 @@ namespace Challange_BattleSim
         enum weapons
         {
             Sword = 5,
-            Shield = 8,
+            Shield = 7,
             Crossbow = 5,
         }
 
@@ -72,7 +72,7 @@ namespace Challange_BattleSim
             }
         }
 
-        public void GiveDamage()
+        public void GiveDamageKnight()
         {
             //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
             Hits raak = Hits.Critical;
@@ -84,21 +84,48 @@ namespace Challange_BattleSim
                 hitpoints -= Damage;
             }
 
-            else if(Form1.weapondamageKnight == 2)
+            else if (Form1.weapondamageRanger == 2)
             {
                 Damage -= (int)weapons.Shield;
                 hitpoints -= Damage;
             }
 
-            else if(Form1.weapondamageRanger == 1)
+            else
+            {
+                hitpoints -= Damage;
+            }
+
+            if (Damage < 1)
+            {
+                MessageBox.Show("Hit or " + nietraak + ", i guess you missed huh...");
+            }
+
+            else if (Damage > 24)
+            {
+                MessageBox.Show(raak + " hit!");
+            }
+        }
+
+        public void GiveDamageRanger()
+        {
+            //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
+            Hits raak = Hits.Critical;
+            Hits nietraak = Hits.miss;
+
+            if (Form1.weapondamageRanger == 1)
             {
                 Damage += (int)weapons.Crossbow;
                 hitpoints -= Damage;
             }
 
-            else if (Form1.weapondamageRanger == 2)
+            else if (Form1.weapondamageKnight == 2)
             {
                 Damage -= (int)weapons.Shield;
+                hitpoints -= Damage;
+            }
+
+            else
+            {
                 hitpoints -= Damage;
             }
 

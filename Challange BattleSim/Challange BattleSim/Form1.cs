@@ -59,7 +59,7 @@ namespace Challange_BattleSim
         {
             //hieronder worden de aangemaakte methodes aangeroepen.
 
-            Ranger.GiveDamage();
+            Ranger.GiveDamageKnight();
 
             Ranger.TakeDamage();
 
@@ -85,6 +85,11 @@ namespace Challange_BattleSim
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
 
+                btAttackRanger.Enabled = true;
+                btHealRanger.Enabled = true;
+                btAttackKnight.Enabled = true;
+                btHealKnight.Enabled = true;
+
                 MessageBox.Show("Knight has won, Congratulations(Resetting)");
             }
         }
@@ -92,7 +97,7 @@ namespace Challange_BattleSim
         private void btAttackRanger_Click(object sender, EventArgs e)
         {
             //hieronder worden de 2 aangemaakte methodes aangeroepen.
-            Knight.GiveDamage();
+            Knight.GiveDamageRanger();
 
             Knight.TakeDamage();
 
@@ -117,6 +122,11 @@ namespace Challange_BattleSim
 
                 Ranger.hitpoints = 100;
                 pbRanger.Value = Ranger.hitpoints;
+
+                btAttackRanger.Enabled = true;
+                btHealRanger.Enabled = true;
+                btAttackKnight.Enabled = true;
+                btHealKnight.Enabled = true;
 
                 MessageBox.Show("Ranger has won, Congratulations(Resetting)");
             }
