@@ -12,134 +12,185 @@ namespace Challange_BattleSim
 {
     public partial class Form1 : Form
     {
-        //Hieronder worden 2 spelers aangemaakt met beide 150 hitpoints.
-        Speler Knight = new Speler(100);
-        Speler Ranger = new Speler(100);
+        static int Starthitpoints = 100;
+        Speler Knight = new Speler(Starthitpoints);
+        Speler Ranger = new Speler(Starthitpoints);
 
-        public int weaponselectKnight;
-        public int weaponselectRanger;
+        Weapon selectedweapon = new Weapon();
+        Armor selectedarmor = new Armor();
 
-        //static variabele om de gekozen vechtstijl door te geven aan de "GiveDamage" methode.
-        static public int weapondamageKnight;
-        static public int weapondamageRanger;
-
-        public Form1(int weaponKnight, int weaponRanger)
+        public Form1()
         {
-            //hieronder worden de picturboxes aangepast naar het gekozen wapen, en de static variabele krijgen een waarde.
             InitializeComponent();
-            weaponselectKnight = weaponKnight;
-            weaponselectRanger = weaponRanger;
 
-            if (weaponselectKnight == 1)
+            #region pbSelection weapon/armor
+            if (selectedweapon.weaponselectKnight == 1)
             {
-                weapondamageKnight = 1;
                 pbWeaponKnight.Image = Properties.Resources.Sword;
             }
 
-            else if (weaponselectKnight == 2)
+            else if (selectedweapon.weaponselectKnight == 2)
             {
-                weapondamageKnight = 2;
                 pbWeaponKnight.Image = Properties.Resources.Shield;
             }
 
-            if (weaponselectRanger == 1)
+            else if (selectedweapon.weaponselectKnight == 3)
             {
-                weapondamageRanger = 1;
+                pbWeaponKnight.Image = Properties.Resources.Spear;
+            }
+
+            else if (selectedweapon.weaponselectKnight == 4)
+            {
+                pbWeaponKnight.Image = Properties.Resources.Morningstar;
+            }
+
+            if (selectedweapon.weaponselectRanger == 1)
+            {
                 pbWeaponRanger.Image = Properties.Resources.Crossbow;
             }
 
-            else if (weaponselectRanger == 2)
+            else if (selectedweapon.weaponselectRanger == 2)
             {
-                weapondamageRanger = 2; 
                 pbWeaponRanger.Image = Properties.Resources.Shield;
             }
+
+            else if (selectedweapon.weaponselectRanger == 3)
+            {
+                pbWeaponRanger.Image = Properties.Resources.Slingshot;
+            }
+
+            else if (selectedweapon.weaponselectRanger == 4)
+            {
+                pbWeaponRanger.Image = Properties.Resources.Hammer;
+            }
+
+            if(selectedarmor.armorselectKnight == 1)
+            {
+                pbArmorKnight.Image = Properties.Resources.Cloth;
+            }
+
+            else if (selectedarmor.armorselectKnight == 2)
+            {
+                pbArmorKnight.Image = Properties.Resources.Traveler;
+            }
+
+            else if (selectedarmor.armorselectKnight == 3)
+            {
+                pbArmorKnight.Image = Properties.Resources.Heavy;
+            }
+
+            else if (selectedarmor.armorselectKnight == 4)
+            {
+                pbArmorKnight.Image = Properties.Resources.Godly;
+            }
+
+            if(selectedarmor.armorselectRanger == 1)
+            {
+                pbArmorRanger.Image = Properties.Resources.Cloth;
+            }
+
+            else if (selectedarmor.armorselectRanger == 2)
+            {
+                pbArmorRanger.Image = Properties.Resources.Traveler;
+            }
+
+            else if (selectedarmor.armorselectRanger == 3)
+            {
+                pbArmorRanger.Image = Properties.Resources.Heavy;
+            }
+
+            else if (selectedarmor.armorselectRanger == 4)
+            {
+                pbArmorRanger.Image = Properties.Resources.Godly;
+            }
+            #endregion
         }
 
         private void btAttackKnight_Click(object sender, EventArgs e)
         {
-            //hieronder worden de aangemaakte methodes aangeroepen.
-
             Ranger.GiveDamageKnight();
-
             Ranger.TakeDamage();
+            KnightbuttonOff();
 
-            //hieronder worden de hitpoints weergegeven in een progressbar.
-            pbRanger.Value = Ranger.hitpoints;
-
-            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
-            btAttackKnight.Enabled = false;
-            btHealKnight.Enabled = false;
-
-            if (btAttackRanger.Enabled == false)
-            {
-                btAttackRanger.Enabled = true;
-                btHealRanger.Enabled = true;
-            }
-
-            //als de ranger geen hitpoints meer heeft word de game herstart (ranger en knight weer 100 hitpoints).
             if (Ranger.hitpoints < 1)
             {
-                Knight.hitpoints = 100;
-                pbKnight.Value = Knight.hitpoints;
-
-                Ranger.hitpoints = 100;
-                pbRanger.Value = Ranger.hitpoints;
-
-                btAttackRanger.Enabled = true;
-                btHealRanger.Enabled = true;
-                btAttackKnight.Enabled = true;
-                btHealKnight.Enabled = true;
-
+                UpdateStats();
                 MessageBox.Show("Knight has won, Congratulations(Resetting)");
             }
         }
 
         private void btAttackRanger_Click(object sender, EventArgs e)
         {
-            //hieronder worden de 2 aangemaakte methodes aangeroepen.
             Knight.GiveDamageRanger();
-
             Knight.TakeDamage();
+            RangerbuttonOff();
 
-            //hieronder worden de hitpoints weergegeven in een progressbar.
-            pbKnight.Value = Knight.hitpoints;
-
-            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
-            btAttackRanger.Enabled = false;
-            btHealRanger.Enabled = false;
-
-            if (btAttackKnight.Enabled == false)
-            {
-                btAttackKnight.Enabled = true;
-                btHealKnight.Enabled = true;
-            }
-
-            //als de knight geen hitpoints meer heeft word de game herstart (ranger en knight weer 100 hitpoints).
             if (Knight.hitpoints < 1)
             {
-                Knight.hitpoints = 100;
-                pbKnight.Value = Knight.hitpoints;
-
-                Ranger.hitpoints = 100;
-                pbRanger.Value = Ranger.hitpoints;
-
-                btAttackRanger.Enabled = true;
-                btHealRanger.Enabled = true;
-                btAttackKnight.Enabled = true;
-                btHealKnight.Enabled = true;
-
+                UpdateStats();
                 MessageBox.Show("Ranger has won, Congratulations(Resetting)");
             }
         }
 
+        private void btHealKnight_Click(object sender, EventArgs e)
+        {
+            Knight.HealingDone();
+            Knight.TakeDamage();
+            pbKnight.Value = Knight.hitpoints;
+            KnightbuttonOff();
+        }
+
+        private void btHealRanger_Click(object sender, EventArgs e)
+        {
+            Ranger.HealingDone();
+            Ranger.TakeDamage();
+            pbRanger.Value = Ranger.hitpoints;
+            RangerbuttonOff();
+        }
+
+        private void btGambleRanger_Click(object sender, EventArgs e)
+        {
+            Knight.GambleDamage();
+            Knight.TakeDamage();
+            RangerbuttonOff();
+
+            if (Knight.hitpoints < 1)
+            {
+                UpdateStats();
+                MessageBox.Show("Knight has won, Congratulations(Resetting)");
+            }
+        }
+
+        private void btGambleKnight_Click(object sender, EventArgs e)
+        {
+            Ranger.GambleDamage();
+            Ranger.TakeDamage();
+            KnightbuttonOff();
+
+            if (Ranger.hitpoints < 1)
+            {
+                UpdateStats();
+                MessageBox.Show("Knight has won, Congratulations(Resetting)");
+            }
+        }
+
+        private void btRestart_Click(object sender, EventArgs e)
+        {
+            Selectform selectform = new Selectform();
+            this.Hide();
+            selectform.Show();
+        }
+
         private void btReset_Click(object sender, EventArgs e)
         {
-            //als er op de reset knop word gedrukt word de game herstart (ranger en knight weer 150 hitpoints).
-            Knight.hitpoints = 100;
+            Knight.hitpoints = Starthitpoints;
             pbKnight.Value = Knight.hitpoints;
 
-            Ranger.hitpoints = 100;
+            Ranger.hitpoints = Starthitpoints;
             pbRanger.Value = Ranger.hitpoints;
+
+            btGambleKnight.Enabled = false;
+            btGambleRanger.Enabled = false;
 
             btAttackKnight.Enabled = true;
             btHealKnight.Enabled = true;
@@ -150,40 +201,57 @@ namespace Challange_BattleSim
             MessageBox.Show("Game restarted");
         }
 
-        private void btHealKnight_Click(object sender, EventArgs e)
+        #region Formupdates
+        //Methodes voor updates op het form.
+        public void UpdateStats()
         {
-            //hieronder worden de 2 aangemaakte methodes aangeroepen.
-            Knight.Healing();
-            Knight.TakeDamage();
-            pbKnight.Value = Knight.hitpoints;
-
-            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
-            btHealKnight.Enabled = false;
-            btAttackKnight.Enabled = false;
-
-            if (btHealKnight.Enabled == false)
-            {
-                btHealRanger.Enabled = true;
-                btAttackRanger.Enabled = true;
-            }
-        }
-
-        private void btHealRanger_Click(object sender, EventArgs e)
-        {
-            //hieronder worden de 2 aangemaakte methodes aangeroepen.
-            Ranger.Healing();
-            Ranger.TakeDamage();
+            Ranger.hitpoints = Starthitpoints;
             pbRanger.Value = Ranger.hitpoints;
 
-            //hieronder worden de buttons gecheckt en in/uitgeschakeld.
-            btHealRanger.Enabled = false;
-            btAttackRanger.Enabled = false;
+            Knight.hitpoints = Starthitpoints;
+            pbKnight.Value = Knight.hitpoints;
 
-            if (btHealRanger.Enabled == false)
+            btGambleKnight.Enabled = true;
+            btGambleRanger.Enabled = true;
+
+            btAttackKnight.Enabled = true;
+            btHealKnight.Enabled = true;
+
+            btAttackRanger.Enabled = true;
+            btHealRanger.Enabled = true;
+        }
+
+        public void KnightbuttonOff()
+        {
+            pbRanger.Value = Ranger.hitpoints;
+
+            btAttackKnight.Enabled = false;
+            btHealKnight.Enabled = false;
+            btGambleKnight.Enabled = false;
+
+            if (btAttackRanger.Enabled == false)
             {
-                btHealKnight.Enabled = true;
-                btAttackKnight.Enabled = true;
+                btAttackRanger.Enabled = true;
+                btHealRanger.Enabled = true;
+                btGambleRanger.Enabled = true;
             }
         }
+
+        public void RangerbuttonOff()
+        {
+            pbKnight.Value = Knight.hitpoints;
+
+            btAttackRanger.Enabled = false;
+            btHealRanger.Enabled = false;
+            btGambleRanger.Enabled = false;
+
+            if (btAttackKnight.Enabled == false)
+            {
+                btAttackKnight.Enabled = true;
+                btHealKnight.Enabled = true;
+                btGambleKnight.Enabled = true;
+            }
+        }
+        #endregion
     }
 }

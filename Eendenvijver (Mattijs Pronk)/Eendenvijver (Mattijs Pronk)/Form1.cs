@@ -28,6 +28,7 @@ namespace Eendenvijver__Mattijs_Pronk_
             man,
             vrouw
         }
+
         private void btVulVijver_Click(object sender, EventArgs e)
         {
             Eend[] maneend = new Eend[13];
@@ -42,14 +43,6 @@ namespace Eendenvijver__Mattijs_Pronk_
             Kikker[] kikkertje = new Kikker[10];
             for (int k = 0; k < 10; k++)
                 kikkertje[k] = new Kikker(8);
-
-            int count = 0;
-            if (geslacht.man == 0)
-            {
-                count++;
-            }
-
-            MessageBox.Show(Convert.ToString(count));
         }
     }
 

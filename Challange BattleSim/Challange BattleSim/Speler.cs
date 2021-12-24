@@ -9,57 +9,25 @@ namespace Challange_BattleSim
 {
     public class Speler
     {
-        //hieronder worden public variabele aangemaakt
+        RandomGenerator randomizer = new RandomGenerator();
+        Weapon selectedweapon = new Weapon();
+        Armor selectedarmor = new Armor();
+
         public int hitpoints;
-        public int currentDamage;
+        private int currentDamage;
+        private int bonusDamage;
 
-        //hieronder is encapsulation te zien door een variabele op private te zetten.
-        private int damage;
-        private int heal;
+        public Speler(int my)
+        {
+            hitpoints = my;
+        }
 
-        //hieronder zijn 2 enum's te zien.
         enum Hits
         {
             Critical,
             miss
         }
 
-        enum weapons
-        {
-            Sword = 3,
-            Shield = 4,
-            Crossbow = 3,
-        }
-
-        //hieronder is een constructor te zien die voor de hitpoints zorgt.
-        public Speler(int hitpoints)
-        {
-            this.hitpoints = hitpoints;
-        }
-
-        //hieronder is een property te zien die voor de random damage tussen 0 en 30 zorgt.
-        public int Damage
-        {
-            get
-            {
-                Random rnd = new Random();
-                return damage = rnd.Next(0, 31);
-            }
-            set { }
-        }
-
-        //hieronder is een property te zien die voor de random healing tussen 2 en 15 zorgt.
-        public int Heal
-        {
-            get
-            {
-                Random rnd = new Random();
-                return heal = rnd.Next(2, 16);
-            }
-            set { }
-        }
-
-        //hieronder is de method te zien die voor ervoor zorgt dat de hitpoints niet onder de 0 kunnen en niet boven de 100.
         public void TakeDamage()
         {
             if (hitpoints < 1)
@@ -75,75 +43,64 @@ namespace Challange_BattleSim
 
         public void GiveDamageKnight()
         {
-            //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
-            //ook word de andere enum gebruikt door de (int) waarde toe te passen als extra of juist minder damage.
-            Hits raak = Hits.Critical;
-            Hits nietraak = Hits.miss;
+            selectedweapon.Chosenweapons();
+            selectedarmor.ChosenArmor();
+            bonusDamage = selectedweapon.weaponKnight - selectedarmor.armorRanger;
 
-            if(Form1.weapondamageKnight == 1 || Form1.weapondamageRanger == 1)
+            if (bonusDamage < 1)
             {
-                currentDamage = Damage + (int)weapons.Sword;
-                hitpoints -= currentDamage;
+                bonusDamage = 0;
             }
 
-            else if (Form1.weapondamageKnight == 1 || Form1.weapondamageRanger == 2)
+            currentDamage = randomizer.Damage + bonusDamage;
+            hitpoints -= currentDamage;
+
+            if (currentDamage < 1)
             {
-                Damage += (int)weapons.Sword;
-                currentDamage = Damage - (int)weapons.Shield;
-                hitpoints -= currentDamage;
+                currentDamage = 0;
+                MessageBox.Show("Hit or " + Hits.miss + ", i guess you missed huh...");
             }
 
-            if (Damage < 1)
+            else if (currentDamage > 24)
             {
-                MessageBox.Show("Hit or " + nietraak + ", i guess you missed huh...");
-            }
-
-            else if (Damage > 24)
-            {
-                MessageBox.Show(raak + " hit!");
+                MessageBox.Show(Hits.Critical + " hit!");
             }
         }
 
         public void GiveDamageRanger()
         {
-            //hieronder krijgt de enum een waarde, en word deze toegepast bij de MessageBox.Show().
-            //ook word de andere enum gebruikt door de (int) waarde toe te passen als extra of juist minder damage.
-            Hits raak = Hits.Critical;
-            Hits nietraak = Hits.miss;
+            selectedweapon.Chosenweapons();
+            selectedarmor.ChosenArmor();
+            bonusDamage = selectedweapon.weaponRanger - selectedarmor.armorKnight;
 
-            if (Form1.weapondamageRanger == 1 || Form1.weapondamageKnight == 1)
+            if(bonusDamage < 1)
             {
-                currentDamage = Damage + (int)weapons.Crossbow;
-                hitpoints -= currentDamage;
+                bonusDamage = 0;
             }
 
-            else if (Form1.weapondamageKnight == 2 || Form1.weapondamageRanger == 1)
+            currentDamage = randomizer.Damage + bonusDamage;
+            hitpoints -= currentDamage;
+
+            if (currentDamage < 1)
             {
-                Damage += (int)weapons.Crossbow;
-                currentDamage = Damage - (int)weapons.Shield;
-                hitpoints -= currentDamage;
+                MessageBox.Show("Hit or " + Hits.miss + ", i guess you missed huh...");
             }
 
-            else
+            else if (currentDamage > 24)
             {
-                hitpoints -= Damage;
-            }
-
-            if (Damage < 1)
-            {
-                MessageBox.Show("Hit or " + nietraak + ", i guess you missed huh...");
-            }
-
-            else if (Damage > 24)
-            {
-                MessageBox.Show(raak + " hit!");
+                MessageBox.Show(Hits.Critical + " hit!");
             }
         }
 
-        //hieronder is de method te zien die voor de healing output zorgt.
-        public void Healing()
+        public void HealingDone()
         {
-            hitpoints += Heal;
+            hitpoints += randomizer.Heal;
+        }
+
+        public void GambleDamage()
+        {
+            randomizer.GambleDamageCalculator();
+            hitpoints -= randomizer.hitchance;
         }
     }
 }
