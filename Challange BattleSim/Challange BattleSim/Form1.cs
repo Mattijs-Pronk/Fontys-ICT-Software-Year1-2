@@ -12,18 +12,26 @@ namespace Challange_BattleSim
 {
     public partial class Form1 : Form
     {
-        static int Starthitpoints = 100;
-        Speler Knight = new Speler(Starthitpoints);
-        Speler Ranger = new Speler(Starthitpoints);
-
         Weapon selectedweapon = new Weapon();
         Armor selectedarmor = new Armor();
+
+        Speler Knight;
+        Speler Ranger;
+
+        static int Starthitpoints = 100;
 
         public Form1()
         {
             InitializeComponent();
 
+            selectedarmor.ChosenArmor();
+            selectedweapon.Chosenweapons();
+
+            Knight = new Speler(Starthitpoints, selectedweapon.weaponKnight, selectedarmor.armorKnight);
+            Ranger = new Speler(Starthitpoints, selectedweapon.weaponRanger, selectedarmor.armorRanger);
+
             #region pbSelection weapon/armor
+            //pictureboxes in form worden aangepast naar de gekozen foto's in de Weapon/Armor class.
             if (selectedweapon.weaponselectKnight == 1)
             {
                 pbWeaponKnight.Image = Properties.Resources.Sword;
@@ -108,7 +116,7 @@ namespace Challange_BattleSim
 
         private void btAttackKnight_Click(object sender, EventArgs e)
         {
-            Ranger.GiveDamageKnight();
+            Ranger.GiveDamage();
             Ranger.TakeDamage();
             KnightbuttonOff();
 
@@ -121,7 +129,7 @@ namespace Challange_BattleSim
 
         private void btAttackRanger_Click(object sender, EventArgs e)
         {
-            Knight.GiveDamageRanger();
+            Knight.GiveDamage();
             Knight.TakeDamage();
             RangerbuttonOff();
 
@@ -235,6 +243,16 @@ namespace Challange_BattleSim
                 btHealRanger.Enabled = true;
                 btGambleRanger.Enabled = true;
             }
+
+            if (Ranger.currentDamage < 1)
+            {
+                MessageBox.Show("Hit or " + Speler.Hits.miss + ", i guess you missed huh...");
+            }
+
+            else if (Ranger.currentDamage > 24)
+            {
+                MessageBox.Show(Speler.Hits.Critical + " hit!");
+            }
         }
 
         public void RangerbuttonOff()
@@ -250,6 +268,16 @@ namespace Challange_BattleSim
                 btAttackKnight.Enabled = true;
                 btHealKnight.Enabled = true;
                 btGambleKnight.Enabled = true;
+            }
+
+            if (Knight.currentDamage < 1)
+            {
+                MessageBox.Show("Hit or " + Speler.Hits.miss + ", i guess you missed huh...");
+            }
+
+            else if (Knight.currentDamage > 24)
+            {
+                MessageBox.Show(Speler.Hits.Critical + " hit!");
             }
         }
         #endregion

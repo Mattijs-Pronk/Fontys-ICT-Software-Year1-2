@@ -62,7 +62,6 @@
     <Compile Include="Selectform.Designer.cs">
       <DependentUpon>Selectform.cs</DependentUpon>
     </Compile>
-    <Compile Include="Shop.cs" />
     <Compile Include="Speler.cs" />
     <Compile Include="Weapon.cs" />
     <EmbeddedResource Include="Form1.resx">

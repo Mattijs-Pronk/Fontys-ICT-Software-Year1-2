@@ -53,7 +53,7 @@ namespace Challange_BattleSim
             InitializeComponent();
         }
 
-        #region All pictureboxes
+        #region All picturebox button's
         //alle picture boxen krijgen een waarde als deze geselecteerd worden.
         private void pictureBox3_Click(object sender, EventArgs e)
         {
@@ -205,16 +205,25 @@ namespace Challange_BattleSim
             if (coinsKnight < 0 && coinsRanger < 0)
             {
                 MessageBox.Show("Knight and Ranger have spent to much");
+                Selectform selectform = new Selectform();
+                this.Hide();
+                selectform.Show();
             }
 
             else if (coinsKnight < 0)
             {
                 MessageBox.Show("Knight has spent to much");
+                Selectform selectform = new Selectform();
+                this.Hide();
+                selectform.Show();
             }
 
             else if (coinsRanger < 0)
             {
                 MessageBox.Show("Ranger has spent to much");
+                Selectform selectform = new Selectform();
+                this.Hide();
+                selectform.Show();
             }
 
             else if (coinsKnight > -1 && coinsRanger > -1)

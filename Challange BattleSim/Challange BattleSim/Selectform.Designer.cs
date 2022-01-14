@@ -202,6 +202,7 @@ namespace Challange_BattleSim
             // 
             // pbTravelerKnight
             // 
+            this.pbTravelerKnight.BackColor = System.Drawing.SystemColors.ControlLight;
             this.pbTravelerKnight.Image = global::Challange_BattleSim.Properties.Resources.Traveler;
             this.pbTravelerKnight.Location = new System.Drawing.Point(275, 141);
             this.pbTravelerKnight.Margin = new System.Windows.Forms.Padding(2);

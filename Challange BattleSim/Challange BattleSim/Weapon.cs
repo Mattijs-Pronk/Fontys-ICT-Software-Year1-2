@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Challange_BattleSim
 {
-    class Weapon
+    public class Weapon
     {
         public int weaponselectKnight;
         public int weaponselectRanger;

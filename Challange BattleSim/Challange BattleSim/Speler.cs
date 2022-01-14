@@ -10,19 +10,21 @@ namespace Challange_BattleSim
     public class Speler
     {
         RandomGenerator randomizer = new RandomGenerator();
-        Weapon selectedweapon = new Weapon();
-        Armor selectedarmor = new Armor();
 
         public int hitpoints;
-        private int currentDamage;
+        public int weapons;
+        public int armor;
+        public int currentDamage;
         private int bonusDamage;
 
-        public Speler(int my)
+        public Speler(int my, int weap, int arm)
         {
             hitpoints = my;
+            weapons = weap;
+            armor = arm;
         }
 
-        enum Hits
+        public enum Hits
         {
             Critical,
             miss
@@ -41,55 +43,13 @@ namespace Challange_BattleSim
             }
         }
 
-        public void GiveDamageKnight()
+        public void GiveDamage()
         {
-            selectedweapon.Chosenweapons();
-            selectedarmor.ChosenArmor();
-            bonusDamage = selectedweapon.weaponKnight - selectedarmor.armorRanger;
-
-            if (bonusDamage < 1)
-            {
-                bonusDamage = 0;
-            }
-
+            bonusDamage = weapons - armor;
             currentDamage = randomizer.Damage + bonusDamage;
             hitpoints -= currentDamage;
 
-            if (currentDamage < 1)
-            {
-                currentDamage = 0;
-                MessageBox.Show("Hit or " + Hits.miss + ", i guess you missed huh...");
-            }
-
-            else if (currentDamage > 24)
-            {
-                MessageBox.Show(Hits.Critical + " hit!");
-            }
-        }
-
-        public void GiveDamageRanger()
-        {
-            selectedweapon.Chosenweapons();
-            selectedarmor.ChosenArmor();
-            bonusDamage = selectedweapon.weaponRanger - selectedarmor.armorKnight;
-
-            if(bonusDamage < 1)
-            {
-                bonusDamage = 0;
-            }
-
-            currentDamage = randomizer.Damage + bonusDamage;
-            hitpoints -= currentDamage;
-
-            if (currentDamage < 1)
-            {
-                MessageBox.Show("Hit or " + Hits.miss + ", i guess you missed huh...");
-            }
-
-            else if (currentDamage > 24)
-            {
-                MessageBox.Show(Hits.Critical + " hit!");
-            }
+            Spelerupdates();
         }
 
         public void HealingDone()
@@ -101,6 +61,19 @@ namespace Challange_BattleSim
         {
             randomizer.GambleDamageCalculator();
             hitpoints -= randomizer.hitchance;
+        }
+
+        private void Spelerupdates()
+        {
+            if (bonusDamage < 1)
+            {
+                bonusDamage = 0;
+            }
+
+            if (currentDamage < 1)
+            {
+                currentDamage = 0;
+            }
         }
     }
 }
