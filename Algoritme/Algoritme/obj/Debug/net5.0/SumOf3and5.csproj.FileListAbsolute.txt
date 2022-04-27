@@ -1,0 +1,16 @@
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.exe
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.deps.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.runtimeconfig.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\ref\SumOf3and5.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\SumOf3and5.pdb
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.AssemblyInfo.cs
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\ref\SumOf3and5.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.pdb
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\SumOf3and5.genruntimeconfig.cache

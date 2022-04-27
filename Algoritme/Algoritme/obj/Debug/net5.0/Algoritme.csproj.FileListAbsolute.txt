@@ -1,0 +1,16 @@
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.exe
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.deps.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.runtimeconfig.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\ref\Algoritme.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\bin\Debug\net5.0\Algoritme.pdb
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.AssemblyInfo.cs
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\ref\Algoritme.dll
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.pdb
+C:\Users\matti\source\repos\Algoritme\Algoritme\obj\Debug\net5.0\Algoritme.genruntimeconfig.cache

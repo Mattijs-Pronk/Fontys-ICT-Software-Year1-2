@@ -1,0 +1,16 @@
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.exe
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.deps.json
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.runtimeconfig.json
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.dll
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\ref\Priemgetallen.dll
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\bin\Debug\net5.0\Priemgetallen.pdb
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.AssemblyInfo.cs
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.dll
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\ref\Priemgetallen.dll
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.pdb
+C:\Users\matti\source\repos\Algoritme\Priemgetallen\obj\Debug\net5.0\Priemgetallen.genruntimeconfig.cache

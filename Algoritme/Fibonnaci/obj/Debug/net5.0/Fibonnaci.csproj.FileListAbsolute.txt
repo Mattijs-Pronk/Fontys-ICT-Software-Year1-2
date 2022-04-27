@@ -1,0 +1,16 @@
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.exe
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.deps.json
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.runtimeconfig.json
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.runtimeconfig.dev.json
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.dll
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\ref\Fibonnaci.dll
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\bin\Debug\net5.0\Fibonnaci.pdb
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.AssemblyInfo.cs
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.dll
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\ref\Fibonnaci.dll
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.pdb
+C:\Users\matti\source\repos\Algoritme\Fibonnaci\obj\Debug\net5.0\Fibonnaci.genruntimeconfig.cache
