@@ -23,11 +23,7 @@ namespace CircusTrein
             //    Console.WriteLine("Wagon with: " + wagon.WagonId +" Id "+ Convert.ToString(wagon.Capacity));
             //}
 
-            Animal animal1 = new Animal();
-            animal1.AddAnimal();
-            logic.filledwagons.Add(animal1);
-
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < 15; i++)
             {
                 Animal animal = new Animal();
                 animal.AddAnimal();

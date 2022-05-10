@@ -46,77 +46,78 @@ namespace CircusTrein
             //    animal.AddAnimal();
             //    wagon.Capacity -= animal.Size;
             //}
-
-            //Check of wagon genoeg ruimte heeft
-            if (animal.Size <= wagon.Capacity)
+            if(filledwagons.Count == 0)
             {
-                //check of animal een carnivore is.
-                if (AnimalCarnivoreCheck(animal) == false)
+                filledwagons.Add(animal);
+                wagon.Capacity -= animal.Size;
+            }
+            else
+            {
+                //Check of wagon genoeg ruimte heeft
+                if (animal.Size <= wagon.Capacity)
                 {
-                    //check voor elk dier in de wagon of het een carnvore is.
-                    foreach (Animal animal1 in filledwagons)
+                    //check of animal geen carnivore is.
+                    if (AnimalCarnivoreCheck(animal) == false)
                     {
-                        //als er geen carnivoren zijn voeg animal toe.
-                        if (AnimalCarnivoreCheck(animal1) == false)
+                        //check voor elk dier in de wagon of het een carnvore is.
+                        foreach (Animal animal1 in filledwagons.ToList())
                         {
-                            filledwagons.Add(animal);
-                            wagon.Capacity -= animal.Size;
-                        }
-                        //als er wel carnivoren zijn.
-                        else
-                        {
-                            //check voor elk dier in de wagon wat de groote is.
-                            foreach (Animal animal2 in filledwagons)
+                            var anyCarnivores = AnimalCarnivoreCheck(animal1);
+                            //als er geen carnivoren zijn voeg animal toe.
+                            if (anyCarnivores == false)
                             {
-                                //als animal groter is dan elk dier in de wagon voeg animal toe.
-                                if (animal.Size > animal2.Size)
+                                filledwagons.Add(animal);
+                                wagon.Capacity -= animal.Size;
+                                return;
+                            }
+                            //als er wel carnivoren zijn.
+                            else
+                            {
+                                if (SizeCheck(animal) == true)
                                 {
                                     filledwagons.Add(animal);
                                     wagon.Capacity -= animal.Size;
                                 }
                             }
-                        }
 
+                        }
                     }
+                    //als animal wel een carnivore is.
+                    else
+                    {
+                        if (SizeCheck(animal) == true)
+                        {
+                            filledwagons.Add(animal);
+                            wagon.Capacity -= animal.Size;
+                        }
+                    }
+
+                }
+                //maak niewe wagon aan.
+                else
+                {
+
                 }
             }
-            //als animal geen carnivore is.
-            //else
-            //{
-            //    //check voor elk dier in de wagon of het een carnvore is.
-            //    foreach (Animal animal3 in filledwagons)
-            //    {
-            //        if (AnimalCarnivoreCheck(animal3) == true)
-            //        {
-            //            //check voor elk dier in de wagon wat de groote is.
-            //            foreach (Animal animal4 in filledwagons)
-            //            {
-            //                //als animal groter is dan elk dier in de wagon voeg animal toe.
-            //                if (animal.Size > animal4.Size)
-            //                {
-            //                    filledwagons.Add(animal);
-            //                }
-            //            }
-            //        }
-            //        else
-            //        {
-            //            //check voor elk dier in de wagon wat de groote is.
-            //            foreach (Animal animal5 in filledwagons)
-            //            {
-            //                //als animal groter is dan elk dier in de wagon voeg animal toe.
-            //                if (animal5.Size > animal.Size)
-            //                {
-            //                    filledwagons.Add(animal);
-            //                }
-            //            }
-            //        }
-            //    }
-            //}
+            
         }
 
         public bool AnimalCarnivoreCheck(Animal animal)
         {
             if(animal.Consumption == AnimalDiet.Carnivore.ToString())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool SizeCheck(Animal animal)
+        {
+            var highest = filledwagons.Max(animal => animal.Size);
+            if (animal.Size > highest)
             {
                 return true;
             }
