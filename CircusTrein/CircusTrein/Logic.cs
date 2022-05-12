@@ -9,6 +9,7 @@ namespace CircusTrein
     public class Logic
     {
         public List<Animal> filledwagons = new List<Animal>();
+        public List<Wagon> wagons = new List<Wagon>();
 
         public List<Animal> ListAnimals()
         {
@@ -38,14 +39,9 @@ namespace CircusTrein
             return listwagons;
         }
 
-        Wagon wagon = new Wagon(1, 1000);
+        Wagon wagon = new Wagon(1, 10);
         public void CanAnimalFitInWagon(Animal animal)
         {
-            //if(wagon.Capacity == 10)
-            //{
-            //    animal.AddAnimal();
-            //    wagon.Capacity -= animal.Size;
-            //}
             if(filledwagons.Count == 0)
             {
                 filledwagons.Add(animal);
@@ -85,21 +81,46 @@ namespace CircusTrein
                     //als animal wel een carnivore is.
                     else
                     {
-                        if (SizeCheck(animal) == true)
+                        foreach (Animal animal1 in filledwagons.ToList())
                         {
-                            filledwagons.Add(animal);
-                            wagon.Capacity -= animal.Size;
+                            //check voor elk dier in de wagon of het een carnvore is.
+                            if (AnimalCarnivoreCheck(animal1) == true)
+                            {
+                                NewWagon(animal);
+                            }
+                            else if (SizeCheck(animal) == true)
+                            {
+                                filledwagons.Add(animal);
+                                wagon.Capacity -= animal.Size;
+                            }
+                            else
+                            {
+                                NewWagon(animal);
+                            }
                         }
                     }
-
                 }
                 //maak niewe wagon aan.
                 else
                 {
-
+                    NewWagon(animal);
                 }
             }
+        }
+
+        public void NewWagon(Animal animal)
+        {
+            Console.WriteLine("WagonId= " + wagon.WagonId + "Capacity left= " + wagon.Capacity);
+            foreach (Animal ani in filledwagons)
+            {
+                Console.WriteLine("Id= " + ani.AnimalId + "Size= " + ani.Size + "Consumption= " + ani.Consumption);
+            }
+            Console.WriteLine("-----------------------------------------");
             
+            wagons.Add(new Wagon());
+            filledwagons.Clear();
+            filledwagons.Add(animal);
+            wagon.Capacity -= animal.Size;
         }
 
         public bool AnimalCarnivoreCheck(Animal animal)
