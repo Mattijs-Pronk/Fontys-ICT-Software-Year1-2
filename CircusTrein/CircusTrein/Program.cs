@@ -17,9 +17,13 @@ using CircusTrein;
             {
                 Animal animal = new Animal();
                 animal.AddAnimal();
-                logic.CanAnimalFitInWagon(animal);
+                logic.AddAnimalToWagons(animal);
             }
 
-            Console.WriteLine(logic.filledwagons.Count);
+            foreach(Animal ani in logic.animals)
+            {
+                Console.WriteLine(ani.AnimalId + ani.Size + ani.Consumption);
+            }
+        
         }
     }
