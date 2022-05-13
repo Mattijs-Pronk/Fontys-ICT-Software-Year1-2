@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {}
+    "C:\\Users\\matti\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {
+    "C:\\Users\\matti\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
+        "projectUniqueName": "C:\\Users\\matti\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
         "projectName": "CircusTrein",
-        "projectPath": "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
+        "projectPath": "C:\\Users\\matti\\source\\repos\\CircusTrein\\CircusTrein\\CircusTrein.csproj",
         "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\CircusTrein\\obj\\",
+        "outputPath": "C:\\Users\\matti\\source\\repos\\CircusTrein\\CircusTrein\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
