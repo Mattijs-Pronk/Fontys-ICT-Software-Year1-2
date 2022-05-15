@@ -18,70 +18,62 @@ namespace CircusTrein2
             this.Capacity = 10;
         }
 
-        public Wagon(int capacity)
+        //check of dier voldoet aan de eisen
+        public bool PutAnimalInWagon(Animal animal)
         {
-            this.Capacity = capacity;
-        }
-
-        public void PutAnimalInWagon(Animal animal)
-        {
+            //als dier erbij kan && er is genoeg ruimte in de wagon
             if(AnimalFitCheck(animal) == true && WagonSizeCheck(animal) == true)
             {
-                wagons.Add(animal);
-                animals.Remove(animal);
-            }
-        }
-
-        public bool WagonSizeCheck(Animal animal)
-        {
-            if (Capacity - animal.Size >= 0)
-            {
+                animals.Add(animal);
                 Capacity -= animal.Size;
                 return true;
             }
-            else
-            {
-                return false;
-            }
+            else { return false; }
         }
 
+        //check of dier in list animals kan
         public bool AnimalFitCheck(Animal animal)
         {
-            foreach(Animal ani in animals)
+            foreach (Animal ani in animals)
             {
-                //als dieren in wagon carnivore zijn en dier wat erbij moet herbivore is, dier wat erbij moet groter is.
-                if (CarnivoreCheck(ani) == true && CarnivoreCheck(animal) == false && AnimalSizeCheck(animal) == true)
+                if(CarnivoreCheck(ani) == true)
                 {
-                    return true;
+                    if(ani.Size <= animal.Size)
+                    {
+                        animal.CannotBeAdded = true;
+                        return false;
+                    }
                 }
-                //als dieren in wagon herbivore zijn en dier wat erbij moet ook herbivore is.
-                if (CarnivoreCheck(ani) == false && CarnivoreCheck(animal) == false)
-                {
-                    return true;
-                }
+                else { return true; }
             }
-            return false;
+            return true;
         }
 
-        public bool AnimalSizeCheck(Animal animal)
+        //past dier nog in wagon kwa size
+        public bool WagonSizeCheck(Animal animal)
         {
-            var highest = animals.Max(animal => animal.Size);
-            if (animal.Size > highest)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            if (Capacity - animal.Size >= 0) { return true; }
+            else { return false; }
         }
 
+        //is dier groter dan het grootste dier in list animals
+        //public bool AnimalSizeCheck(Animal animal)
+        //{
+        //    var highest = animals.Max(animal => animal.Size);
+        //    if (animal.Size > highest) 
+        //    { 
+        //        return true; 
+        //    }
+        //    else 
+        //    { 
+        //        return false; 
+        //    }
+        //}
+
+        //is dier een carnivore
         public bool CarnivoreCheck(Animal animal)
         {
-            if(animal.Consumption == Animal.AnimalDiet.Carnivore.ToString())
-            {
-                return true;
-            }
+            if(animal.Consumption == Animal.AnimalDiet.Carnivore.ToString()) { return true; }
             return false;
         }
     }

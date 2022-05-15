@@ -10,11 +10,7 @@ namespace CircusTrein2
     {
         public int Size { get; set; }
         public string Consumption { get; set; }
-
-        public Animal()
-        {
-
-        }
+        public bool CannotBeAdded { get; set; }
 
         public enum AnimalSize
         {
@@ -29,12 +25,26 @@ namespace CircusTrein2
             Carnivore
         }
 
+        public Animal()
+        {
+
+        }
+
         public Animal(int size, string consumption)
         {
             this.Size = size;
             this.Consumption = consumption;
         }
 
+        //dier aanmaken
+        public void AddAnimal()
+        {
+            GetSize();
+            GetConsumption();
+            Animal animal = new Animal(Size, Consumption);
+        }
+
+        //size van dier bepalen
         public int GetSize()
         {
             Random rnd = new Random();
@@ -47,22 +57,19 @@ namespace CircusTrein2
             return this.Size;
         }
 
+        //consumption van dier bepalen
         public string GetConsumption()
         {
             Random rnd = new Random();
             var animalconsumption = rnd.Next(1, 3);
+            //carnivore kans verlagen door 2e random toevoegen.
+            var consumptionchance = rnd.Next(1, 3);
 
             if (animalconsumption == 1) { this.Consumption = AnimalDiet.Herbivore.ToString(); }
+            else if(consumptionchance == 1) { this.Consumption = AnimalDiet.Herbivore.ToString(); }
             else { this.Consumption = AnimalDiet.Carnivore.ToString(); }
 
             return this.Consumption;
-        }
-
-        public void AddAnimal()
-        {
-            GetSize();
-            GetConsumption();
-            Animal animal = new Animal(Size, Consumption);
         }
     }
 }
