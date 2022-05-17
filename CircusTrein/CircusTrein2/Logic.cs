@@ -11,7 +11,6 @@ namespace CircusTrein2
         public List<Animal> animals = new List<Animal>();
         public List<Wagon> train = new List<Wagon>();
 
-        public List<Animal> animals2 = new List<Animal>();
         public List<Animal> carnivores = new List<Animal>();
         public List<Animal> herbivores = new List<Animal>();
 
@@ -24,7 +23,7 @@ namespace CircusTrein2
         //alle dieren in list animals verdelen over list carnivores en list herbivores
         public void DevideAnimals()
         {
-            foreach(Animal ani in animals2)
+            foreach(Animal ani in animals)
             {
                 if(wagon.CarnivoreCheck(ani) == true)
                 {

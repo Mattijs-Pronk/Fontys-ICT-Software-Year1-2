@@ -21,7 +21,7 @@ namespace CircusTrein2
             {
                 Animal animal = new Animal();
                 animal.AddAnimal();
-                logic.animals2.Add(animal);
+                logic.animals.Add(animal);
             }
  
             logic.DevideAnimals();
@@ -46,7 +46,7 @@ namespace CircusTrein2
             }
 
             Console.WriteLine("Amount of wagons: " + logic.train.Count);
-            Console.WriteLine("Amount of total animals: " + logic.animals2.Count);
+            Console.WriteLine("Amount of total animals: " + logic.animals.Count);
         }
 
 

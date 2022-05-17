@@ -38,7 +38,7 @@ namespace CircusTrein2
             {
                 if(CarnivoreCheck(ani) == true)
                 {
-                    if(ani.Size <= animal.Size)
+                    if(ani.Size >= animal.Size)
                     {
                         animal.CannotBeAdded = true;
                         return false;
