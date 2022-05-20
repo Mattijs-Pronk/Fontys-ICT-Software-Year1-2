@@ -14,18 +14,21 @@ namespace CircusTrein2
         public List<Animal> carnivores = new List<Animal>();
         public List<Animal> herbivores = new List<Animal>();
 
+        Animal animal = new Animal();
+
         public Logic()
         {
 
         }
 
-        Wagon wagon = new Wagon();
-        //alle dieren in list animals verdelen over list carnivores en list herbivores
+        /// <summary>
+        /// alle animals in list animals verdelen over list carnivores en list herbivores
+        /// </summary>
         public void DevideAnimals()
         {
             foreach(Animal ani in animals)
             {
-                if(wagon.CarnivoreCheck(ani) == true)
+                if(animal.IsAnimalCarnivore(ani) == true)
                 {
                     carnivores.Add(ani);
                 }
@@ -36,7 +39,9 @@ namespace CircusTrein2
             }
         }
 
-        //alle dieren in list carnivores verdelen over wagons
+        /// <summary>
+        /// alle dieren in list carnivores verdelen over wagons
+        /// </summary>
         public void CarnivoresToWagon()
         {
             foreach (Animal animal in carnivores.ToList())
@@ -46,7 +51,11 @@ namespace CircusTrein2
             }
         }
 
-        //alle wagons checken of dier erbij kan, zoniet maak een nieuw wagon
+        /// <summary>
+        /// alle wagons checken of dier erbij kan, zoniet maak een nieuw wagon
+        /// </summary>
+        /// <param name="animal">meegestuurde properties van animal</param>
+        /// <returns>true or false</returns>
         public bool AnimalToWagon(Animal animal)
         {
             foreach (Wagon wagon in train)
@@ -57,7 +66,7 @@ namespace CircusTrein2
                     return true;
                 }
             }
-            if (animal.CannotBeAdded == true)
+            if (animal.Size >= 0)
             {
                 NewWagon(animal);
                 herbivores.Remove(animal);
@@ -66,7 +75,10 @@ namespace CircusTrein2
             return false;
         }
 
-        //nieuwe wagon aanmaken
+        /// <summary>
+        /// nieuwe wagon aanmaken
+        /// </summary>
+        /// <param name="animal">nieuwe wagon aanmaken</param>
         public void NewWagon(Animal animal)
         {
             Wagon wagon = new Wagon();

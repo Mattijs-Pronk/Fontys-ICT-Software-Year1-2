@@ -4,18 +4,18 @@ using System.Linq;
 
 namespace CircusTrein2
 {
-    class Program
+    public class Program
     {
         Logic logic = new Logic();
         static void Main(string[] args)
         {
 
             Program program = new Program();
-            program.WagonTest();
+            program.Startalgoritm();
             program.DebugChecks();
         }
 
-        public void WagonTest()
+        public void Startalgoritm()
         {
             for (int i = 0; i < 15; i++)
             {
@@ -32,7 +32,7 @@ namespace CircusTrein2
                 logic.AnimalToWagon(animal3);
             }
 
-            //wagon met dieren printen
+            //wagons met dieren printen
             foreach(Wagon wagon in logic.train)
             {
                 Console.WriteLine("----------------------New Wagon----------------------");

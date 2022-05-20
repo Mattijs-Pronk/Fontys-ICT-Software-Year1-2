@@ -18,11 +18,15 @@ namespace CircusTrein2
             this.Capacity = 10;
         }
 
-        //check of dier voldoet aan de eisen
+        /// <summary>
+        /// check of animal in wagon past gebasseerd op: heeft de wagon genoeg ruimte en, past animal tussen de andere animals
+        /// </summary>
+        /// <param name="animal">meegestuurde properties van animal</param>
+        /// <returns>true or false</returns>
         public bool PutAnimalInWagon(Animal animal)
         {
             //als dier erbij kan && er is genoeg ruimte in de wagon
-            if(AnimalFitCheck(animal) == true && WagonSizeCheck(animal) == true)
+            if(CanAnimalFit(animal) == true && WagonSizeCheck(animal) == true)
             {
                 animals.Add(animal);
                 Capacity -= animal.Size;
@@ -32,15 +36,19 @@ namespace CircusTrein2
         }
 
         //check of dier in list animals kan
-        public bool AnimalFitCheck(Animal animal)
+        /// <summary>
+        /// check of animal in list animals past gebasseerd op: is animal een carnivore zo ja, is animal groter dan de carnivore.
+        /// </summary>
+        /// <param name="animal">meegestuurde properties van animal</param>
+        /// <returns>true or false</returns>
+        public bool CanAnimalFit(Animal animal)
         {
             foreach (Animal ani in animals)
             {
-                if(CarnivoreCheck(ani) == true)
+                if(animal.IsAnimalCarnivore(ani) == true)
                 {
                     if(ani.Size >= animal.Size)
                     {
-                        animal.CannotBeAdded = true;
                         return false;
                     }
                 }
@@ -49,7 +57,11 @@ namespace CircusTrein2
             return true;
         }
 
-        //past dier nog in wagon kwa size
+        /// <summary>
+        /// check of animal nog in de wagon erbij past
+        /// </summary>
+        /// <param name="animal">meegestuurde properties van animal</param>
+        /// <returns>true or false</returns>
         public bool WagonSizeCheck(Animal animal)
         {
             if (Capacity - animal.Size >= 0) { return true; }
@@ -69,12 +81,5 @@ namespace CircusTrein2
         //        return false; 
         //    }
         //}
-
-        //is dier een carnivore
-        public bool CarnivoreCheck(Animal animal)
-        {
-            if(animal.Consumption == Animal.AnimalDiet.Carnivore.ToString()) { return true; }
-            return false;
-        }
     }
 }
