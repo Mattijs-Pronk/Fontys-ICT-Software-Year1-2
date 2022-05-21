@@ -63,7 +63,7 @@ namespace CircusTrein2
         public int GetSize()
         {
             Random rnd = new Random();
-            var animalsize = rnd.Next(1, 4);
+            int animalsize = rnd.Next(1, 4);
 
             if (animalsize == 1) { this.Size = (int)AnimalSize.Small; }
             else if (animalsize == 2) { this.Size = (int)AnimalSize.Medium; }
@@ -79,10 +79,10 @@ namespace CircusTrein2
         public string GetConsumption()
         {
             Random rnd = new Random();
-            var animalconsumption = rnd.Next(1, 3);
+            int animalconsumption = rnd.Next(1, 3);
 
             //carnivore kans verlagen door 2e random toevoegen.
-            var consumptionchance = rnd.Next(1, 3);
+            int consumptionchance = rnd.Next(1, 3);
 
             if (animalconsumption == 1) { this.Consumption = AnimalDiet.Herbivore.ToString(); }
             else if(consumptionchance == 1) { this.Consumption = AnimalDiet.Herbivore.ToString(); }
