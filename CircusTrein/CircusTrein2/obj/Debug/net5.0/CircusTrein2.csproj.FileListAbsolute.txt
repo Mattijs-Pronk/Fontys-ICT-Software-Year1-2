@@ -21,7 +21,6 @@ C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\Circus
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.dll
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\ref\CircusTrein2.dll
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.pdb
-C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfoInputs.cache
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfo.cs
@@ -30,3 +29,4 @@ C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\Circus
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\ref\CircusTrein2.dll
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.pdb
 C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.genruntimeconfig.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache

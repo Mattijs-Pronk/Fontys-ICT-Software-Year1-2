@@ -1,0 +1,14 @@
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\CircusTrein2.exe
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\CircusTrein2.deps.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\CircusTrein2.runtimeconfig.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\CircusTrein2.runtimeconfig.dev.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\b\CircusTrein2\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\.vs\CircusTrein\v16\lut\0\i\CircusTrein2\Debug\net5.0\CircusTrein2.genruntimeconfig.cache

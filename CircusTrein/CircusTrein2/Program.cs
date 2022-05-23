@@ -7,6 +7,7 @@ namespace CircusTrein2
     public class Program
     {
         Logic logic = new Logic();
+
         static void Main(string[] args)
         {
             Program program = new Program();
