@@ -9,7 +9,6 @@ namespace CircusTrein2
         Logic logic = new Logic();
         static void Main(string[] args)
         {
-
             Program program = new Program();
             program.Startalgoritm();
             program.DebugChecks();
