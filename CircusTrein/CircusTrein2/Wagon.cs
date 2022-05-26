@@ -26,7 +26,7 @@ namespace CircusTrein2
         public bool PutAnimalInWagon(Animal animal)
         {
             //als dier erbij kan && er is genoeg ruimte in de wagon
-            if(CanAnimalFit(animal) == true && WagonSizeCheck(animal) == true)
+            if(CanAnimalSizeFitInWagon(animal) == true && WagonSizeCheck(animal) == true)
             {
                 animals.Add(animal);
                 Capacity -= animal.Size;
@@ -41,7 +41,7 @@ namespace CircusTrein2
         /// </summary>
         /// <param name="animal">meegestuurde properties van animal</param>
         /// <returns>true or false</returns>
-        public bool CanAnimalFit(Animal animal)
+        public bool CanAnimalSizeFitInWagon(Animal animal)
         {
             foreach (Animal ani in animals)
             {
