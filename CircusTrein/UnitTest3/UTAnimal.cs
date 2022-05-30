@@ -19,66 +19,25 @@ namespace UnitTest3
             bool expected = true;
 
             //Act
-            bool actual = animal.IsAnimalCarnivore(animal);
+            bool actual = animal.IsCarnivore();
 
             //Assert
             Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
-        public void Test_AddAnimal()
-        {
-            //Arrange 
-            Animal expected = new Animal();
-            
-
-            //Act
-            Animal actual = new Animal();
-            actual.AddAnimal();
-            expected = actual;
-
-
-            //Assert
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Test_GetSize()
+        public void Test_IsBigger()
         {
             //Arrange
-            Animal animal = new Animal();
+            Animal animal1 = new Animal();
+            Animal animal2 = new Animal();
+            animal1.Size = 5;
+            animal2.Size = 3;
 
-            int expected;
-            int expected1 = 1;
-            int expected3 = 3;
-            int expected5 = 5;
-
-
-            //Act
-            int actual = animal.GetSize();
-
-            if (actual == 1) { expected = expected1; }
-            else if (actual == 3) { expected = expected3; }
-            else { expected = expected5; }
-
-            //Assert
-            Assert.AreEqual(expected, actual);
-        }
-
-        [TestMethod]
-        public void Test_GetConsumption()
-        {
-            //Arrange
-            Animal animal = new Animal();
-
-            string expected;
-            string expected1 = "Carnivore";
-            string expected2 = "Herbivore";
+            bool expected = true;
 
             //Act
-            string actual = animal.GetConsumption();
-            if (actual == "Carnivore") { expected = expected1; }
-            else { expected = expected2; }
+            bool actual = animal1.IsBigger(animal2);
 
             //Assert
             Assert.AreEqual(expected, actual);

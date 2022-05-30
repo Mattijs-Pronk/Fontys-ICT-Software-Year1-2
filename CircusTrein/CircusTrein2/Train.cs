@@ -8,32 +8,11 @@ namespace CircusTrein2
 {
     public class Train
     {
-        List<Animal> animals = new List<Animal>();
         List<Wagon> train = new List<Wagon>();
 
         public Train()
         {
 
-        }
-
-        /// <summary>
-        /// animals in list animals stoppen
-        /// </summary>
-        /// <param name="animal">meegestuurde properties van animal</param>
-        public void AddAnimalsToList(Animal animal)
-        {
-            animals.Add(animal);
-        }
-
-        /// <summary>
-        /// elke keer een animal uit list animals pakken en meegeven aan "AnimalToWagon" methode
-        /// </summary>
-        public void TakeAnimalOutList()
-        {
-            foreach (Animal animal3 in animals.ToList())
-            {
-                AnimalToWagon(animal3);
-            }
         }
 
         /// <summary>
@@ -62,15 +41,17 @@ namespace CircusTrein2
         /// nieuwe wagon aanmaken
         /// </summary>
         /// <param name="animal">nieuwe wagon aanmaken</param>
-        public void NewWagon(Animal animal)
+        public int NewWagon(Animal animal)
         {
             Wagon wagon = new Wagon();
             wagon.PutInWagon(animal);
             train.Add(wagon);
+
+            return train.Count();
         }
 
         /// <summary>
-        /// 
+        /// alle wagons met dieren printen
         /// </summary>
         public void PrintWagons()
         {
@@ -88,7 +69,6 @@ namespace CircusTrein2
             }
 
             Console.WriteLine("Amount of wagons: " + train.Count);
-            Console.WriteLine("Amount of total animals: " + animals.Count);
         }
     }
 }

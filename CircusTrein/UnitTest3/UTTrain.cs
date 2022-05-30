@@ -11,58 +11,7 @@ namespace UnitTest3
     [TestClass]
     public class UTTrain
     {
-        Train logic = new Train();
-
-        List<Animal> UTanimals = new List<Animal>();
-
-        [TestMethod]
-        public void Test_DevideAnimals()
-        {
-            //Arrange
-            Animal animal = new Animal();
-            animal.Size = 5;
-            animal.Consumption = Animal.AnimalDiet.Carnivore.ToString();
-
-            logic.animals.Add(animal);
-            //UTanimals.Add(animal);
-
-            int expectedCarnivores = 1;
-            int expectedHerbivores = 0;
-
-
-            //Act
-            logic.DevideAnimals();
-            int actualCarnivores = logic.carnivores.Count();
-            int actualHerbivores = logic.herbivores.Count();
-
-            //Assert
-            Assert.AreEqual(expectedCarnivores, actualCarnivores);
-            Assert.AreEqual(expectedHerbivores, actualHerbivores);
-        }
-
-        [TestMethod]
-        public void Test_CarnivoresToWagon()
-        {
-            //Arrange
-            Animal animal = new Animal();
-            animal.Size = 1;
-            animal.Consumption = Animal.AnimalDiet.Carnivore.ToString();
-
-            logic.carnivores.Add(animal);
-
-            int expectedWagons = 1;
-            int expectedCarnivores = 0;
-
-
-            //Act
-            logic.CarnivoresToWagon();
-            int actualWagons = logic.train.Count();
-            int actualCarnivores = logic.carnivores.Count();
-
-            //Assert
-            Assert.AreEqual(expectedWagons, actualWagons);
-            Assert.AreEqual(expectedCarnivores, actualCarnivores);
-        }
+        Train train = new Train();
 
         [TestMethod]
         public void Test_AnimalToWagon()
@@ -76,7 +25,7 @@ namespace UnitTest3
 
 
             //Act
-            bool actual = logic.AnimalToWagon(animal);
+            bool actual = train.AnimalToWagon(animal);
 
 
             //Assert
@@ -88,14 +37,13 @@ namespace UnitTest3
         {
             //Arrange
             Animal animal = new Animal();
-            animal.Size = 1;
+            animal.Size = 3;
             animal.Consumption = Animal.AnimalDiet.Carnivore.ToString();
 
             int expected = 1;
 
             //Act
-            logic.NewWagon(animal);
-            int actual = logic.train.Count();
+            int actual = train.NewWagon(animal);
 
 
             //Assert

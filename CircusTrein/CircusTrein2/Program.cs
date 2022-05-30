@@ -6,7 +6,7 @@ namespace CircusTrein2
 {
     public class Program
     {
-        Train logic = new Train();
+        Train train = new Train();
 
         static void Main(string[] args)
         {
@@ -20,12 +20,10 @@ namespace CircusTrein2
             {
                 Animal animal = new Animal();
                 animal.GenerateAnimal();
-                logic.AddAnimalsToList(animal);
+                train.AnimalToWagon(animal);
             }
 
-            logic.TakeAnimalOutList();
-
-            logic.PrintWagons();
+            train.PrintWagons();
         }
     }
 }
