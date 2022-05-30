@@ -36,31 +36,43 @@ namespace CircusTrein2
         }
 
         /// <summary>
-        /// dier aanmaken met random size en consumption.
+        /// check of het dier een carnivore is
         /// </summary>
-        public void AddAnimal()
+        /// <returns>true or false</returns>
+        public bool IsCarnivore()
         {
-            GetSize();
-            GetConsumption();
-            Animal animal = new Animal(Size, Consumption);
+            if (this.Consumption == AnimalDiet.Carnivore.ToString()) { return true; }
+            else { return false; }
         }
 
         /// <summary>
-        /// check of het dier een carnivore is
+        /// check of het dier groter is dan meegestuurd dier
         /// </summary>
         /// <param name="animal">meegestuurde properties van animal</param>
         /// <returns>true or false</returns>
-        public bool IsAnimalCarnivore(Animal animal)
+        public bool IsBigger(Animal animal)
         {
-            if (animal.Consumption == Animal.AnimalDiet.Carnivore.ToString()) { return true; }
+            if (this.Size >= animal.Size)
+            {
+                return true;
+            }
             return false;
+        }
+
+        /// <summary>
+        /// dier aanmaken met random size en consumption.
+        /// </summary>
+        public void GenerateAnimal()
+        {
+            GetRandomSize();
+            GetRandomConsumption();
         }
 
         /// <summary>
         /// size van dier bepalen aan de hand van randoms
         /// </summary>
         /// <returns>int die tussen de 1 en 5 ligt</returns>
-        public int GetSize()
+        public int GetRandomSize()
         {
             Random rnd = new Random();
             int animalsize = rnd.Next(1, 4);
@@ -76,7 +88,7 @@ namespace CircusTrein2
         /// consumption van dier bepalen aan de hand van randoms
         /// </summary>
         /// <returns>herbivore of carnivore</returns>
-        public string GetConsumption()
+        public string GetRandomConsumption()
         {
             Random rnd = new Random();
             int animalconsumption = rnd.Next(1, 3);

@@ -8,8 +8,7 @@ namespace CircusTrein2
 {
     public class Wagon
     {
-        public List<Animal> animals = new List<Animal>();
-        public List<Animal> wagons = new List<Animal>();
+        public List<Animal> animalsInWagon = new List<Animal>();
 
         public int Capacity { get; set; }
 
@@ -23,12 +22,12 @@ namespace CircusTrein2
         /// </summary>
         /// <param name="animal">meegestuurde properties van animal</param>
         /// <returns>true or false</returns>
-        public bool PutAnimalInWagon(Animal animal)
+        public bool PutInWagon(Animal animal)
         {
             //als dier erbij kan && er is genoeg ruimte in de wagon
-            if(CanAnimalSizeFitInWagon(animal) == true && WagonSizeCheck(animal) == true)
+            if(CanFitInWagon(animal) == true && EnoughWagonCapacity(animal) == true)
             {
-                animals.Add(animal);
+                animalsInWagon.Add(animal);
                 Capacity -= animal.Size;
                 return true;
             }
@@ -41,18 +40,12 @@ namespace CircusTrein2
         /// </summary>
         /// <param name="animal">meegestuurde properties van animal</param>
         /// <returns>true or false</returns>
-        public bool CanAnimalSizeFitInWagon(Animal animal)
+        public bool CanFitInWagon(Animal animal)
         {
-            foreach (Animal ani in animals)
+            foreach (Animal animaltocheck in animalsInWagon)
             {
-                if(animal.IsAnimalCarnivore(ani) == true)
-                {
-                    if(ani.Size >= animal.Size)
-                    {
-                        return false;
-                    }
-                }
-                else { return true; }
+                if(animal.IsBigger(animaltocheck) && animal.IsCarnivore()) { return false; }
+                if(animaltocheck.IsCarnivore() && animaltocheck.IsBigger(animal)) { return false; }
             }
             return true;
         }
@@ -62,24 +55,10 @@ namespace CircusTrein2
         /// </summary>
         /// <param name="animal">meegestuurde properties van animal</param>
         /// <returns>true or false</returns>
-        public bool WagonSizeCheck(Animal animal)
+        public bool EnoughWagonCapacity(Animal animal)
         {
             if (Capacity - animal.Size >= 0) { return true; }
             else { return false; }
         }
-
-        //is dier groter dan het grootste dier in list animals
-        //public bool AnimalSizeCheck(Animal animal)
-        //{
-        //    var highest = animals.Max(animal => animal.Size);
-        //    if (animal.Size > highest) 
-        //    { 
-        //        return true; 
-        //    }
-        //    else 
-        //    { 
-        //        return false; 
-        //    }
-        //}
     }
 }

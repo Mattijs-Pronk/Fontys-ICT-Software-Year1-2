@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 namespace UnitTest3
 {
     [TestClass]
-    public class UTLogic
+    public class UTTrain
     {
-        Logic logic = new Logic();
+        Train logic = new Train();
 
         List<Animal> UTanimals = new List<Animal>();
 
