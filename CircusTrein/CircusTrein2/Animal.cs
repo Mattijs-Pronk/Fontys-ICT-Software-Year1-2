@@ -36,6 +36,18 @@ namespace CircusTrein2
         }
 
         /// <summary>
+        /// check of dier en ander dier bij elkaar kunnen
+        /// </summary>
+        /// <param name="animal">meegestuurde properties van animal</param>
+        /// <returns>true or false</returns>
+        public bool CanBeTogether(Animal animal)
+        {
+            if (animal.IsCarnivore() && animal.IsBigger(this)) { return false; }
+            if (this.IsCarnivore() && this.IsBigger(animal)) { return false; }
+            else { return true; }
+        }
+
+        /// <summary>
         /// check of het dier een carnivore is
         /// </summary>
         /// <returns>true or false</returns>
@@ -72,7 +84,7 @@ namespace CircusTrein2
         /// size van dier bepalen aan de hand van randoms
         /// </summary>
         /// <returns>int die tussen de 1 en 5 ligt</returns>
-        public int GetRandomSize()
+        private int GetRandomSize()
         {
             Random rnd = new Random();
             int animalsize = rnd.Next(1, 4);
@@ -88,7 +100,7 @@ namespace CircusTrein2
         /// consumption van dier bepalen aan de hand van randoms
         /// </summary>
         /// <returns>herbivore of carnivore</returns>
-        public string GetRandomConsumption()
+        private string GetRandomConsumption()
         {
             Random rnd = new Random();
             int animalconsumption = rnd.Next(1, 3);

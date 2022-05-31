@@ -21,7 +21,7 @@ namespace UnitTest3
 
             Wagon wagon = new Wagon();
             wagon.CanFitInWagon(animal);
-            wagon.EnoughWagonCapacity(animal);
+            wagon.HasEnoughCapacity(animal);
 
             bool expected = true;
             int expectedCapacity = 9;
@@ -59,7 +59,7 @@ namespace UnitTest3
         }
 
         [TestMethod]
-        public void Test_EnoughWagonCapacity()
+        public void Test_HasEnoughCapacity()
         {
             //Arrange
             Animal animal = new Animal();
@@ -71,7 +71,7 @@ namespace UnitTest3
 
 
             //Act
-            bool actual = wagon.EnoughWagonCapacity(animal);
+            bool actual = wagon.HasEnoughCapacity(animal);
 
 
             //Assert

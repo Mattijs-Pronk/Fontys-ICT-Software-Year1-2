@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "veddNRE+pkm0SlN2Q8MaNhGWN4abhqCDSi1i+7s8rIJ3RfbFg1D6cz2OECqHKsI83rwFu1qwLcyV+VSfC3W6YA==",
+  "dgSpecHash": "BsiCcDEGBwdDOE/+Wpf5AfdsuTnJQiCFXvwZAQACde7+yVwkhyQS1+0weIhzIJvcQycZptXpaQaqCDMi7WRrsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matti\\Desktop\\Fitness planner\\Fontys-ICT-Software2.0\\CircusTrein\\UnitTest3\\UnitTest3.csproj",
+  "projectFilePath": "C:\\Users\\matti\\source\\repos\\CircusTrein\\UnitTest3\\UnitTest3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matti\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\matti\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

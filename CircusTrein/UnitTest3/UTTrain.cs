@@ -21,8 +21,7 @@ namespace UnitTest3
             animal.Size = 1;
             animal.Consumption = Animal.AnimalDiet.Carnivore.ToString();
 
-            bool expected = false;
-
+            bool expected = true;
 
             //Act
             bool actual = train.AnimalToWagon(animal);

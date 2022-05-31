@@ -29,12 +29,8 @@ namespace CircusTrein2
                     return true;
                 }
             }
-            if (animal.Size >= 0)
-            {
-                NewWagon(animal);
-                return false;
-            }
-            return false;
+            NewWagon(animal);
+            return true;
         }
 
         /// <summary>
@@ -44,28 +40,24 @@ namespace CircusTrein2
         public int NewWagon(Animal animal)
         {
             Wagon wagon = new Wagon();
-            wagon.PutInWagon(animal);
+            if(wagon.PutInWagon(animal) == false)
+            {
+                throw new InvalidOperationException("Animal couldn't be added");
+            }
             train.Add(wagon);
 
             return train.Count();
         }
 
         /// <summary>
-        /// alle wagons met dieren printen
+        /// alle wagons met inhoud printen
         /// </summary>
         public void PrintWagons()
         {
             //wagons met dieren printen
             foreach (Wagon wagon in train)
             {
-                Console.WriteLine("----------------------New Wagon----------------------");
-                Console.WriteLine("Capacity left in wagon: " + wagon.Capacity);
-                for (int i = 0; i < wagon.animalsInWagon.Count; i++)
-                {
-                    Console.WriteLine("Animal size: " + wagon.animalsInWagon[i].Size + "     " + "Animal consumptiontype: " + wagon.animalsInWagon[i].Consumption);
-                }
-                Console.WriteLine("-----------------------------------------------------");
-                Console.WriteLine("");
+                wagon.PrintAnimalsInWagon();
             }
 
             Console.WriteLine("Amount of wagons: " + train.Count);
