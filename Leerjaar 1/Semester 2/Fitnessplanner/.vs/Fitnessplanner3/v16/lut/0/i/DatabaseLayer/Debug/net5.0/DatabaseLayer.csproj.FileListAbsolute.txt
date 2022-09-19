@@ -1,0 +1,9 @@
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\DatabaseLayer\Debug\net5.0\DatabaseLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\DatabaseLayer\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\DatabaseLayer\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\DatabaseLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\DatabaseLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\DatabaseLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\DatabaseLayer\Debug\net5.0\ref\DatabaseLayer.dll

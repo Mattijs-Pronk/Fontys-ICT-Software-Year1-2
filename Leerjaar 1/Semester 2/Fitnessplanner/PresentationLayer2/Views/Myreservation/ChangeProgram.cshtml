@@ -1,0 +1,106 @@
+﻿@model PresentationLayer2.Models.MachineAndMyreservationViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Change Program</h1>
+
+<h4></h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ChangeProgram">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.myreservation.Day)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.myreservation.Day)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.myreservation.Timeslot)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.myreservation.Timeslot)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.myreservation.Currentreservation)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.myreservation.Currentreservation)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.myreservation.Maxreservations)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.myreservation.Maxreservations)
+            </dd>
+            <div class="form-group">
+                @Html.DropDownListFor(Model => Model.myreservation.Programname, new SelectList(ViewBag.allprograms))
+                <label asp-for="myreservation.Programname" class="control-label"></label>
+                @*<input asp-for="Usertype" class="form-control" />*@
+                <span asp-validation-for="myreservation.Programname" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<p></p>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<p></p>
+
+<form method="get" autocomplete="off">
+    @using (Html.BeginForm("ChangeProgram", "Myreservation", FormMethod.Get))
+    {
+        <p>Select MachineType</p>
+        @Html.DropDownList("searchPhrase", new SelectList((System.Collections.IEnumerable)ViewData["allprograms"]))
+        <input type="hidden" asp-for="myreservation.ProgramId" />
+        <input type="submit" value="search" />
+        <p></p>
+    }
+</form>
+
+<p></p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                MachineType
+            </th>
+            <th>
+                MachineName
+            </th>
+            <th>
+                MachineDescription
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.machines)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinetype)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinename)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinedescription)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

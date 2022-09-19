@@ -1,0 +1,121 @@
+﻿@model IEnumerable<UserViewModel>
+
+@{
+    ViewData["Title"] = "All users";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+@if (TempData["UserCreated"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["UserCreated"]
+    </div>
+}
+@if (TempData["UserEdited"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["UserEdited"]
+    </div>
+}
+@if (TempData["UserDeleted"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["UserDeleted"]
+    </div>
+}
+@if (TempData["UserNotDeleted"] != null)
+{
+    <div class="alert alert-danger">
+        <strong> Failed! </strong>  @TempData["UserNotDeleted"]
+    </div>
+}
+
+<form method="post" autocomplete="off">
+    @using (Html.BeginForm("Index", "User", FormMethod.Get))
+    {
+        <p>Search for Email</p>
+        @Html.TextBox("searchPhrase")
+        <input type="submit" value="search" />
+        <p>@ViewBag.EmailNotFound</p> <p>@ViewBag.EmailExists</p>
+    }
+
+    @using (Html.BeginForm("Index", "User", FormMethod.Post))
+    {
+        <input type="submit" value="viewAll" />
+    }
+</form>
+
+<p>
+
+</p>
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                Firstname
+            </th>
+            <th>
+                Lastname
+            </th>
+            <th>
+                Adress
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Password
+            </th>
+            <th>
+                Usertype
+            </th>
+            <th>
+                SubStart
+            </th>
+            <th>
+                SubEnd
+            </th>
+            <th>
+                <a asp-action="Create">Create New</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Firstname)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Lastname)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Adress)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Password)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Usertype)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.SubscriptionStart)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.SubscriptionEnd)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

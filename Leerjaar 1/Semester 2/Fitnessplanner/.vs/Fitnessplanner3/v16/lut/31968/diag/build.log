@@ -1,0 +1,48 @@
+[17:40:57.184 Verbose] - BuildManager - C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\DummyDAL\AccountDummyDAL.cs(10,39): error CS0738: 'AccountDummyDAL' does not implement interface member 'IAccountContainer.DeleteOne(AccountDTO)'. 'AccountDummyDAL.DeleteOne(AccountDTO)' cannot implement 'IAccountContainer.DeleteOne(AccountDTO)' because it does not have the matching return type of 'bool'.
+[17:40:57.184 Verbose] - BuildManager - C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\AccountContainerUT.cs(11,35): warning CS0169: The field 'AccountContainerUT.IAccountContainer' is never used
+[17:40:57.184 Verbose] - BuildManager - C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\AccountUT.cs(12,26): warning CS0169: The field 'AccountUT.IAccount' is never used
+[17:40:57.184 Verbose] - BuildManager - C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets(71,5): error MSB4181: The "Csc" task returned false but did not log an error.
+[17:40:57.191 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[17:40:57.191 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\' evaluated via:
+_OutputPathItem: '$(OutDir)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:310
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:245
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\' @ C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\UnitTest.csproj:0
+        Configuration: 'Debug'
+[17:40:57.191 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\UnitTest.dll.config' evaluated via:
+AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:338
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:245
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\' @ C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\UnitTest.csproj:0
+        Configuration: 'Debug'
+  TargetFileName: '$(TargetName)$(TargetExt)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:248
+    TargetName: '$(AssemblyName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:240
+      AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+        MSBuildProjectName: 'UnitTest'
+    TargetExt: '.dll' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets:106
+[17:40:57.191 Verbose] - BuildManager - Item CreateDirectory 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\ref' evaluated via:
+CreateDirectory: '$(OutDir)ref' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:398
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:245
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\' @ C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\UnitTest.csproj:0
+        Configuration: 'Debug'
+[17:40:57.192 Verbose] - BuildManager - Item _DebugSymbolsOutputPath 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\UnitTest.pdb' evaluated via:
+_DebugSymbolsOutputPath: '@(_DebugSymbolsIntermediatePath->'$(OutDir)%(Filename)%(Extension)')' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:404
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:245
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\' @ C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\UnitTest.csproj:0
+        Configuration: 'Debug'
+[17:40:57.192 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\Native.UnitTest.manifest' evaluated via:
+_ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:442
+  OutDir: '$(OutputPath)' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:228
+    OutputPath: '$(OutputPath)$(TargetFramework.ToLowerInvariant())\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets:245
+      OutputPath: '$(BaseOutputPath)$(Configuration)\' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DefaultOutputPaths.targets:33
+        BaseOutputPath: 'C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\' @ C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\UnitTest\UnitTest.csproj:0
+        Configuration: 'Debug'
+  _DeploymentTargetApplicationManifestFileName: 'Native.$(AssemblyName).manifest' @ C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets:264
+    AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\dotnet\sdk\6.0.202\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props:32
+      MSBuildProjectName: 'UnitTest'

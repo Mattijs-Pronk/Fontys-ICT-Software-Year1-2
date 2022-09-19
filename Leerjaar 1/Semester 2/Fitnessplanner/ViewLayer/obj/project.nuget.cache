@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "fPtW9FiI/mSsn0cT3vFdV0uFwPkoEkCqAHUFCq+PqnOzbf/DPaiFBhCiLVvpUS8gdVUn2Wu6w72XygBAcnP1Zg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\ViewLayer\\ViewLayer.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project BusinessLogicLayer is not compatible with netcoreapp3.1 (.NETCoreApp,Version=v3.1). Project BusinessLogicLayer supports: net5.0 (.NETCoreApp,Version=v5.0)",
+      "libraryId": "BusinessLogicLayer",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

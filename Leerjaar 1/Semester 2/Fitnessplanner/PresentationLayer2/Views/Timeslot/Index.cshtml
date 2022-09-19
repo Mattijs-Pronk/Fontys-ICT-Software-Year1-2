@@ -1,0 +1,111 @@
+﻿@model IEnumerable<TimeslotViewModel>
+
+@{
+    ViewData["Title"] = "All available timeslots";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+<form method="post" autocomplete="off">
+    @using (Html.BeginForm("Index", "Timeslot", FormMethod.Get))
+    {
+        <p>Search for day</p>
+        @Html.TextBox("searchPhrase")
+        <input type="submit" value="search" />
+        <p></p>
+    }
+
+    @using (Html.BeginForm("Index", "Timeslot", FormMethod.Post))
+    {
+        <input type="submit" value="viewAll" />
+    }
+
+    <p>
+
+    </p>
+
+    @using (Html.BeginForm("CreateNewDay", "Timeslot", FormMethod.Post))
+    {
+        <input type="submit" value="NewDay" />
+    }
+</form>
+
+
+@if (TempData["TimeslotCreated"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["TimeslotCreated"]
+    </div>
+}
+
+@if (TempData["TimeslotEdited"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["TimeslotEdited"]
+    </div>
+}
+
+@if (TempData["TimeslotDeleted"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["TimeslotDeleted"]
+    </div>
+}
+
+@if (TempData["NewDayadded"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["NewDayadded"]
+    </div>
+}
+
+<p>
+
+</p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                Day
+            </th>
+            <th>
+                Timeslot
+            </th>
+            <th>
+                Currentreservations
+            </th>
+            <th>
+                Maxreservations
+            </th>
+            <th>
+                <a asp-action="Create">Create New</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Day)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Timeslots)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Currentreservations)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Maxreservations)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.TimeslotID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.TimeslotID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

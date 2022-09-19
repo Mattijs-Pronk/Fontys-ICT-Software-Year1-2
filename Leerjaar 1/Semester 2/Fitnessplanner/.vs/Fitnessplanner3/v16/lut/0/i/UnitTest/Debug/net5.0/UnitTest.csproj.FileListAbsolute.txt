@@ -1,0 +1,4 @@
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\b\UnitTest\Debug\net5.0\CoverletSourceRootsMapping
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\UnitTest\Debug\net5.0\UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\UnitTest\Debug\net5.0\UnitTest.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\.vs\Fitnessplanner3\v16\lut\0\i\UnitTest\Debug\net5.0\UnitTest.AssemblyInfo.cs

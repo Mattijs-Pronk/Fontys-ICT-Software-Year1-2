@@ -1,0 +1,48 @@
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.exe
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.deps.json
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.json
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.dev.json
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfoInputs.cache
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfo.cs
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.CoreCompileInputs.cache
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\source\repos\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.genruntimeconfig.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.exe
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.deps.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.dev.json
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.genruntimeconfig.cache
+C:\Users\matti\Desktop\Fitness planner\Fontys-ICT-Software2.0\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.exe
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.deps.json
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.json
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.runtimeconfig.dev.json
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\bin\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.AssemblyInfo.cs
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.dll
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\ref\CircusTrein2.dll
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.pdb
+C:\Users\matti\Desktop\CircusTrein\CircusTrein2\obj\Debug\net5.0\CircusTrein2.genruntimeconfig.cache

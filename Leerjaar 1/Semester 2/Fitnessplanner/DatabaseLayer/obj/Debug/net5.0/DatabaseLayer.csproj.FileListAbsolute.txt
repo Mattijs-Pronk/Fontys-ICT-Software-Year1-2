@@ -1,0 +1,42 @@
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\bin\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.deps.json
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\bin\Debug\net5.0\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\ref\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\DatabaseLayer\obj\Debug\net5.0\DatabaseLayer.pdb

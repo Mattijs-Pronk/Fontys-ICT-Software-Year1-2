@@ -1,0 +1,205 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\BusinessLogicLayer\\BusinessLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "projectName": "BusinessLogicLayer",
+        "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\BusinessLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\DatabaseLayer.csproj": {
+                "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\DatabaseLayer.csproj"
+              },
+              "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj": {
+                "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\DatabaseLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\DatabaseLayer.csproj",
+        "projectName": "DatabaseLayer",
+        "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\DatabaseLayer.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\DatabaseLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj": {
+                "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj",
+        "projectName": "InterfaceLayer",
+        "projectPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\InterfaceLayer.csproj",
+        "packagesPath": "C:\\Users\\matti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matti\\Desktop\\Fitnessplanner3\\FitnessplannerFontysS2\\InterfaceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\matti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

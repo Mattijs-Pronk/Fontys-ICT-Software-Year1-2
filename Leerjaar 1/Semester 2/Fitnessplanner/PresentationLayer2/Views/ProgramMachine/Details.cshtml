@@ -1,0 +1,70 @@
+﻿@model PresentationLayer2.Models.ProgramAndMachineViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.program.Programname)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.program.Programname)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.program.Programdescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.program.Programdescription)
+        </dd>
+    </dl>
+</div>
+
+<p>
+
+</p>
+<p>All machines in this program</p>
+<p>
+
+</p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                MachineType
+            </th>
+            <th>
+                MachineName
+            </th>
+            <th>
+                MachineDescription
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.machines)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinetype)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinename)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinedescription)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

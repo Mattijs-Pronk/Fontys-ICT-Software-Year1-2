@@ -1,0 +1,49 @@
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.deps.json
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\bin\Debug\net5.0\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\ref\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\BusinessLogicLayer\obj\Debug\net5.0\BusinessLogicLayer.pdb

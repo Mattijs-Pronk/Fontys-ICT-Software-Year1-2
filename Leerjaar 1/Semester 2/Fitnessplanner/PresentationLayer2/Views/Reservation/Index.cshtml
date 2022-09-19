@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ReservationViewModel>
+
+@{
+    ViewData["Title"] = "Reservation";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+@if (@TempData["Reserved"] != null)
+{
+    <div class="alert alert-success">
+        <strong>Succes!</strong> @TempData["Reserved"]
+    </div>
+}
+@if (@TempData["NotReserved"] != null)
+{
+    <div class="alert alert-danger">
+        <strong>No reservation made!</strong> @TempData["NotReserved"]
+    </div>
+}
+
+<form method="post" autocomplete="off">
+    @using (Html.BeginForm("Index", "Reservation", FormMethod.Get))
+    {
+        <p>Select Day</p>
+        @Html.DropDownList("searchPhrase", new SelectList((System.Collections.IEnumerable)ViewData["alldays"]))
+        <input type="submit" value="search" />
+    }
+</form>
+
+<p>
+
+</p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                Day
+            </th>
+            <th>
+                Timeslot
+            </th>
+            <th>
+                CurrentReservations
+            </th>
+            <th>
+                MaxReservations
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Day)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Timeslots)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Currentreservations)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Maxreservations)
+                </td>
+                <td>
+                    <a asp-action="Reserve" asp-route-id="@item.TimeslotID">Reserve</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

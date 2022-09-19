@@ -1,0 +1,48 @@
+﻿@model PresentationLayer2.Models.ReservationViewModel
+
+@{
+    ViewData["Title"] = "Reserve";
+}
+
+<h1>Reserve</h1>
+
+<h3>Are you sure you want to reserve this timeslot?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Timeslots)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Timeslots)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Currentreservations)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Currentreservations)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Maxreservations)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Maxreservations)
+        </dd>
+    </dl>
+
+    <form asp-action="Reserve">
+        <input type="hidden" asp-for="TimeslotID" />
+        <input type="hidden" asp-for="Day" />
+        <input type="hidden" asp-for="Timeslots" />
+        <input type="hidden" asp-for="Currentreservations" />
+        <input type="hidden" asp-for="Maxreservations" />
+        <input type="submit" value="Reserve" class="btn btn-info" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

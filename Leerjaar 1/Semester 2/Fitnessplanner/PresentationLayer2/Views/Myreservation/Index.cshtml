@@ -1,0 +1,91 @@
+﻿@model IEnumerable<PresentationLayer2.Models.MyreservationViewModel>
+
+@{
+    ViewData["Title"] = "MyReservations";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+@if (TempData["ProgramChanged"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["ProgramChanged"]
+    </div>
+}
+@if (TempData["ReservationCancelled"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["ReservationCancelled"]
+    </div>
+}
+<p>
+
+</p>
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.UserID)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TimeslotID)
+                </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Day)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Timeslot)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Currentreservation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Maxreservations)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Programname)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.ProgramId)
+                </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.UserID)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TimeslotID)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Day)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Timeslot)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Currentreservation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Maxreservations)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Programname)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.ProgramId)
+                    </td>*@
+                <td>
+                    <a asp-action="ChangeProgram" asp-route-id="@item.BookingID">ChangeProgram</a> |
+                    <a asp-action="Cancel" asp-route-id="@item.BookingID">Cancel</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,87 @@
+﻿@model IEnumerable<MachineViewModel>
+
+@{
+    ViewData["Title"] = "All Machines";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+@if (TempData["MachineCreated"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["MachineCreated"]
+    </div>
+}
+
+@if (TempData["MachineEdited"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["MachineEdited"]
+    </div>
+}
+
+@if (TempData["MachineDeleted"] != null)
+{
+    <div class="alert alert-success">
+        <strong> Succes! </strong>  @TempData["MachineDeleted"]
+    </div>
+}
+
+<form method="post" autocomplete="off">
+    @using (Html.BeginForm("Index", "Machine", FormMethod.Get))
+    {
+        <p>Select MachineType</p>
+        @Html.DropDownList("searchPhrase", new SelectList((System.Collections.IEnumerable)ViewData["machinetype"]))
+        <input type="submit" value="search" />
+        <p></p>
+    }
+
+    @using (Html.BeginForm("Index", "Machine", FormMethod.Post))
+    {
+        <input type="submit" value="viewAll" />
+    }
+</form>
+
+<p>
+
+</p>
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                MachineType
+            </th>
+            <th>
+                MachineName
+            </th>
+            <th>
+                MachineDescription
+            </th>
+            <th>
+                <a asp-action="Create">Create New</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinetype)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinename)
+                </td>
+                <td>
+                    @Html.DisplayFor(Modelitem => item.Machinedescription)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MachineId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.MachineId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿@model PresentationLayer2.Models.MyreservationViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Cancel reservation</h1>
+
+<h3>Are you sure you want to cancel this reservation?</h3>
+<div>
+    <h4></h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Day)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Day)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Timeslot)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Timeslot)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Currentreservation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Currentreservation)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Maxreservations)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Maxreservations)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Programname)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Programname)
+        </dd>
+    </dl>
+    
+    <form asp-action="Cancel">
+        <input type="hidden" asp-for="BookingID" />
+        <input type="hidden" asp-for="Day" />
+        <input type="hidden" asp-for="Timeslot" />
+        <input type="submit" value="CancelReservation" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

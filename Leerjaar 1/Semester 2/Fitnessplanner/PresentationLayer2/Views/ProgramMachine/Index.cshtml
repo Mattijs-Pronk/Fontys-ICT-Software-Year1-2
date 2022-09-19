@@ -1,0 +1,47 @@
+﻿@model IEnumerable<PresentationLayer2.Models.ProgramMachineViewModel>
+
+@{
+    ViewData["Title"] = "AllPrograms";
+}
+
+<div class="jumbotron-fluid">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+</div>
+
+<p>
+
+</p>
+
+<table class="table table-bordered">
+    <thead class="thead-light">
+        <tr>
+            <th>
+                Programname
+            </th>
+            <th>
+                Programdescription
+            </th>
+            <th>
+                <a asp-action="Create">Create New</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Programname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Programdescription)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ProgramID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ProgramID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ProgramID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,116 @@
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.exe
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.json
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.dev.json
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\InterfaceLayer.AccountAddEdit.resources
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\Fitnessplanner3.AccountManagement.resources
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.GenerateResource.cache
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.genruntimeconfig.cache
+C:\Users\matti\Desktop\Fitnessplanner3\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AccountManagement.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.MachineAddEdit.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.MachineManagement.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.GenerateResource.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AccountAddEdit.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.BookingPrograms.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.LoginUser.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Myreservations.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ProgramInfo.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Reservation.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ReservationAddEdit.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ReservationManagement.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Subscriptions.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.UserreservationManagement.resources
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.exe
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.deps.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.dev.json
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.genruntimeconfig.cache
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitnessplanner3\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.exe
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.deps.json
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.json
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.runtimeconfig.dev.json
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\InterfaceLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\BusinessLogicLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\DatabaseLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\bin\Debug\net5.0-windows\InterfaceLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.AssemblyReference.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AccountAddEdit.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AccountManagement.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.BookingPrograms.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.LoginUser.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.MachineAddEdit.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.MachineManagement.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Myreservations.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ProgramInfo.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Reservation.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ReservationAddEdit.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.ReservationManagement.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.Subscriptions.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.UserreservationManagement.resources
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.GenerateResource.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.AssemblyInfo.cs
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.csproj.CopyComplete
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ref\ViewLayer.dll
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.pdb
+C:\Users\matti\Desktop\Fitness planner\FitnessplannerFontysS2\Fitnessplanner3\obj\Debug\net5.0-windows\ViewLayer.genruntimeconfig.cache
